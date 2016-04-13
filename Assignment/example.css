@@ -1,0 +1,27 @@
+body{
+	background-color:#F5F5DC;
+}
+#kid1{
+	text-align:center;
+	background:red;
+	width:300px;
+	height:50px;
+	font-size:40px;
+}
+#kid2{
+	text-align:center;
+	background:black;
+	width:100px;
+	height:50px;
+	color:white;
+	font-size:11px;
+}
+#kid3{
+	position:absolute;
+	text-align:left;
+	background:black;
+	width:520px;
+	height:53px;
+	color:white;
+	font-size:22px;
+}
