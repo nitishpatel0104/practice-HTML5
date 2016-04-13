@@ -4,24 +4,56 @@ body{
 #kid1{
 	text-align:center;
 	background:red;
-	width:300px;
+	width:280px;
 	height:50px;
 	font-size:40px;
+	border-radius: 7px;
 }
 #kid2{
 	text-align:center;
 	background:black;
-	width:100px;
-	height:50px;
+	width:150px;
+	height:56px;
 	color:white;
-	font-size:11px;
+	font-size:15px;
+	border-radius: 7px;
+}
+#kid0{
+	text-align:center;
+	background:black;
+	width:100px;
+	height:56px;
+	color:white;
+	font-size:15px;
+	border-radius: 7px;
 }
 #kid3{
-	position:absolute;
-	text-align:left;
+	position:static;
+	text-align:center;
 	background:black;
-	width:520px;
-	height:53px;
+	width:400px;
+	height:55px;
 	color:white;
 	font-size:22px;
+	border-radius: 7px;
+}
+#kid4{
+	border-radius: 7px;
+	font-size:20px;
+	border: 2px solid white;
+	background:#F0FFFF;
+	padding:2px;
+	margin: 2px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#kid5{
+	left:40px;
+	position:static;
+	text-align:center;
+	background:#F5F5DC;
+	width:200px;
+	height:55px;
+	color:red;
+	font-size:55px;
+	border-style:hidden;
 }
