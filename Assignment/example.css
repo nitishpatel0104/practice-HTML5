@@ -39,7 +39,7 @@ body{
 }
 #kid4{
 	border-radius: 7px;
-	font-size:20px;
+	font-size:15px;
 	border: 2px solid white;
 	background:#F0FFFF;
 	padding:2px;
@@ -47,7 +47,7 @@ body{
 	box-shadow: 1px 1px 1px #888888;
 }
 #kid5{
-	left:40px;
+	
 	position:static;
 	text-align:center;
 	background:#F5F5DC;
@@ -56,4 +56,53 @@ body{
 	color:red;
 	font-size:55px;
 	border-style:hidden;
+}
+#kid6{
+	
+	position:static;
+	text-align:center;
+	background:#F5F5DC;
+	width:100px;
+	height:55px;
+	color:red;
+	font-size:20px;
+	border-style:hidden;
+}
+#kid7{
+	position:static;
+	text-align:center;
+	background:#F5F5DC;
+	width:100px;
+	height:55px;
+	color:black;
+	font-size:20px;
+	border-style:hidden;
+	
+}
+h3.ex1{
+	 margin-left: 0.5cm;
+}
+h4.ex1{
+	 margin-left: 0.5cm;
+}
+select.ex1{
+	 margin-left: 0.5cm;
+}
+p.ex1{
+	 margin-left: 0.5cm;
+}
+#fu{
+	text-align:left;
+	margin:5px;
+	padding:10px;
+	width:60%;
+	height:100px;
+}
+#last{
+	text-align:left;
+	margin:5px;
+	padding:5px;
+	width:60%;
+	height:80px;
+	
 }
