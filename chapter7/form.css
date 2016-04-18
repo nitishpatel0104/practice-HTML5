@@ -1,0 +1,15 @@
+body{
+	background-color:#B0E0E6;
+}
+#form1{
+	
+	width:50%;
+	height:30px;
+	border:2px 2px 2px;
+	margin:10px;
+	padding:2px;
+	font-size:20px;
+}
+#text{
+	text-align:left;
+}
