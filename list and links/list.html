@@ -5,16 +5,24 @@
 	<link type="text/css" rel="stylesheet" href="list.css">
 </head>
 <body style="height:915px">
-	<div class="headerx">
+	<form class="headerx">
 	<br><br>
 	<section id="sample">
-	<button id="kid1" type="button" onclick="window.open('list.html')">Home</button>
-	<button id="kid1" type="button" onclick="window.open('git.html')" >GIT</button>
-	<button id="kid1" type="button" onclick="window.open('htmlfile.html')">HTML</button>
-	<button id="kid1" type="button" onclick="window.open('css.html')">CSS</button>
+	<form  action="list.html" method="post">
+	<button id="kid1" type="submit" name="list">Home</button>
+	</form>
+	<form  action="git.html" method="post">
+	<button  id="kid1" type="submit"  name="git">GIT</button>
+	</form>
+	<form  action="htmlfile.html" method="post">
+	<button id="kid1" type="submit" name="html">HTML</button>
+	</form>
+	<form  action="css.html" method="post">
+	<button id="kid1" type="submit" >CSS</button>
+	</form>
 	<button id="kid1" type="button" onclick="alert('3422746280')">Contact</button>
 	</section>
-	</div>
+	</form>
 	<div id="ref" >
 	<br><br>
 	<a href="git.html">what is GIT? and how it's work.</a><br>

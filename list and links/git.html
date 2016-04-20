@@ -15,21 +15,31 @@
 		}
 	</style>
 </head>
-<body>
+<body >
 	<form class="headerx">
-	<br><br>
+	<br><br><br>
 	<section id="sample">
-	<button id="kid1" type="button" onclick="window.open('list.html')">Home</button>
-	<button id="kid1" type="button" onclick="window.open('git.html')" >GIT</button>
-	<button id="kid1" type="button" onclick="window.open('htmlfile.html')">HTML</button>
-	<button id="kid1" type="button" onclick="window.open('css.html')">CSS</button>
+	<form  action="list.html" method="post">
+	<button id="kid1" type="submit" name="list">Home</button>
+	</form>
+	<form  action="git.html" method="post">
+	<button  id="kid1" type="submit"  name="git">GIT</button>
+	</form>
+	<form  action="htmlfile.html" method="post">
+	<button id="kid1" type="submit" name="html">HTML</button>
+	</form>
+	<form  action="css.html" method="post">
+	<button id="kid1" type="submit" >CSS</button>
+	</form>
 	<button id="kid1" type="button" onclick="alert('3422746280')">Contact</button>
 	</section>
 	</form>
-	<br><br>
+	<section id="img1" class="body">
+	<img src="git.png" width="500" height="200"/>
+	</section>
 	<section>
-	<h1>What is git?</h1>
 	<div>
+	<h1>What is git?</h1>
 	<h3 style="color:red">Git Basics</h3>
 	<font size="4" face="Arial">So, what is Git in a nutshell? This is an important section to absorb,
 	because if you understand what Git is and the fundamentals of how it works, 
