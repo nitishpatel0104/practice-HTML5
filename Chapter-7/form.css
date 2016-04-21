@@ -2,7 +2,7 @@ body{
 	background-color:#B0E0E6;
 }
 #form1{
-	
+	text-align:center;
 	width:50%;
 	height:30px;
 	border:2px 2px 2px;
@@ -10,6 +10,7 @@ body{
 	padding:2px;
 	font-size:20px;
 }
-#text{
-	text-align:left;
+
+#form2{
+	border-radius:2px 2px 2px;
 }
