@@ -6,7 +6,7 @@ body{
 
 	position:fixed;
 	width:100%;
-	height:50px;
+	height:45px;
 	top:100px;
 	background:#87CEFA;
 	left:0px;
@@ -50,12 +50,9 @@ body{
 #img1{
 	left:100px;
 	height:50px;
-	width:50px;
-	top:25px;
-	-webkit-transform: rotate(-4deg);
-    -moz-transform: rotate(-4deg);
-    -o-transform: rotate(-4deg);
-    transform: rotate(-4deg);
+	width:20%;
+	top:17px;
+	
 }
 #form1{
 	left:800px;
@@ -70,7 +67,7 @@ body{
 	width:200px;
 }
 .submit1{
-	left:1200px;
+	left:1180px;
 	top:39px;
 	background:white;
 	color:#142170;
