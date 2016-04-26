@@ -64,7 +64,7 @@ body{
 	
 }
 #id1{
-	top:420px; 
+	top:300px; 
 	left:780px;
 	
 }
@@ -117,4 +117,25 @@ body{
 	width:20%;
 	top:17px;
 	
+}
+#img2{
+	left:700px;
+	height:100px;
+	width:20%;
+	top:150px;
+}
+#css{
+	width:150px;
+	height:180px;
+	background-color:#DCDCDC;
+}
+#html{
+	width:190px;
+	height:180px;
+	background-color:#DCDCDC;
+}
+#git{
+	width:190px;
+	height:180px;
+	background-color:#DCDCDC;
 }
