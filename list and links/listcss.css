@@ -75,7 +75,7 @@ body{
 	
 }
 #kid1{
-	
+	display: inline;
 	border-radius: 10px;
 	font-size:20px;
 	border: 2px solid #F5F5DC;
@@ -83,6 +83,9 @@ body{
 	padding:5px;
 	margin: 5px;
 	box-shadow: 1px 1px 1px #888888;
+}
+a{
+	text-decoration: none;
 }
 #we{
 	font-size:50px;
