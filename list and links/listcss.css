@@ -68,12 +68,6 @@ body{
 	left:780px;
 	
 }
-#sample{
-	
-	display: -webkit-box;
-	-webkit-box-orient: horizontal;
-	
-}
 #kid1{
 	display: inline;
 	border-radius: 10px;

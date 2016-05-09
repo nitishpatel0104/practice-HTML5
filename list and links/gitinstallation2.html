@@ -22,12 +22,25 @@
 			left:1000px;
 			display: inline;
 			border-radius: 5px;
-			font-size:25px;
 			border: 2px solid #F5F5DC;
 			background: #F0FFFF;
 			padding:3px;
 			margin: 2px;
 			box-shadow: 1px 1px 1px #888888;
+		}
+		.pic{
+			width:300px;
+			height:200px;
+		}
+		.picbig{
+			position: absolute;
+			width:0px;
+			-webkit-transition:  width 0.3s linear 0s;
+			transition: width 0.3s linear 0s;
+			z-index:10;
+		}
+		.pic:hover + .picbig{
+			width:600px;
 		}
 	</style>
 </head>
@@ -52,38 +65,47 @@
 	</section>
 	<div>
 		<h3 style="color:blue">Running our first Git command</h3>
-			Now, we have to test our installation. Is Git ready to rock? Let's find out!<br/><br/>
 			<figure>
-				<img src="images/i4.png" width="500" height="400"/><br/>
+				Now, we have to test our installation. Is Git ready to rock? Let's find out!<br/><br/>
+				<img class="pic" src="images/i4.png" alt="pic4"/>
+				<img class="picbig" src="images/i4.png" alt="pic4"/>
+				<br/>
 				<figcaption>
 					First we see that, when we right click every where we see that those options.
 				</figcaption>
 				</figure>
 				<figure>
-					<img src="images/i5.PNG" width="500" height="400"/><br/>
+					<img class="pic" src="images/i5.PNG" alt="pic5"/>
+					<img class="picbig" src="images/i5.PNG" alt="pic5"/>
+					<br/>
 				<figcaption>
 					Open a prompt and simply type git (or the equivalent, git --help), as shown in
 					the following screenshot:
 				</figcaption>
 				</figure>
-				<figure>
 				<h3 style="color:blue">Setting up a new repository</h3>
-					The first step is to set up a new repository (or repo, for short). A repo is a container
+				<figure>
+					<p>The first step is to set up a new repository (or repo, for short). A repo is a container
 					for your entire project; every file or subfolder within it belongs to that repository,
 					in a consistent manner. Physically, a repository is nothing other than a folder that
 					contains a special .git folder, the folder where the magic happens.
 					<br/><br/>Let's try to make our first repo. Choose a folder you like, and type the git init
-					command, as shown here:
-					<img src="images/i6.PNG" width="500" height="120"/><br/>
+					command, as shown here:</p>
+					<img class="pic" src="images/i6.PNG" alt="pic6"/>
+					<img class="picbig" src="images/i6.PNG" alt="pic6"/>
+					<br/>
 				</figure>
+				
 				<figure>
-					Whoa! What just happened? Git created a .git subfolder. The subfolder (normally
-					hidden in Windows) contains some files and folders, as shown in the next screenshot:
-					<img src="images/i7.PNG" width="500" height="150"/><br/>
+					<p>Whoa! What just happened? Git created a .git subfolder. The subfolder (normally
+					hidden in Windows) contains some files and folders, as shown in the next screenshot:</p>
+					<img class="pic" src="images/i7.PNG" alt="pic7"/>
+					<img class="picbig" src="images/i7.PNG" alt="pic7"/>
+					<br/>
 				<figcaption>
-					At this point, it is not important for us to understand what is inside this folder. The
+					<p>At this point, it is not important for us to understand what is inside this folder. The
 					only thing you have to know is that you do not have to touch it, ever! If you delete it
-					or if you modify files inside by hand, you could get into trouble.
+					or if you modify files inside by hand, you could get into trouble.</p>
 				</figcaption>
 				</figure>
 		</font>

@@ -22,12 +22,25 @@
 			left:1000px;
 			display: inline;
 			border-radius: 5px;
-			font-size:25px;
 			border: 2px solid #F5F5DC;
 			background: #F0FFFF;
 			padding:3px;
 			margin: 2px;
 			box-shadow: 1px 1px 1px #888888;
+		}
+		.pic{
+			width:300px;
+			height:200px;
+		}
+		.picbig{
+			position: absolute;
+			width:0px;
+			-webkit-transition:  width 0.3s linear 0s;
+			transition: width 0.3s linear 0s;
+			z-index:10;
+		}
+		.pic:hover + .picbig{
+			width:600px;
 		}
 	</style>
 </head>
@@ -52,24 +65,66 @@
 	</section>
 	<div>
 		<h3 style="color:blue">Adding a file</h3>
-			Let's create a text file just to give it a try.<br/>
 			<figure>
-				<img src="images/i8.png" width="500" height="150"/><br/>
+				<p>Let's create a text file just to give it a try.</p>
+				<img class="pic" src="images/i8.PNG" alt="pic8"/>
+				<img class="picbig" src="images/i8.PNG" alt="pic8"/>
+				<br/>
 				<figcaption>
 					And now what? Is that all? No! We have to tell Git to put this file in your repo,
-					explicitly. Git doesn't do anything that you don't want it to. If you have some spare
+					<strong>explicitly.</strong> Git doesn't do anything that you don't want it to. If you have some spare
 					files or temp ones in your repo, Git will not be compatible with them, but will only
 					remind you that there are some files in your repo that are not under version control
 					(in the next chapter, we will see how to instruct Git to ignore them when necessary).<br/><br/>
-					Ok, back to the topic. I want MyFile.txt under the control of Git, so let's add it, as
+					Ok, back to the topic. I want <strong>MyFile.txt</strong> under the control of Git, so let's add it, as
 					shown here:
 				</figcaption>
 			</figure>
-			
+			<figure>
+				<img class="pic" src="images/i9.PNG" alt="pic9"/>
+				<img class="picbig" src="images/i9.PNG" alt="pic9"/>
+				<br/>
+				<figcaption>
+					The <strong>git add</strong> command tells Git that we want it to take care of that file and check it
+					for future modifications.<br/>
+					Has Git obeyed us? Let's see.<br/>
+					Using the <strong>git status</strong> command, we can check the status of the repo, as shown in
+					the following screenshot:
+				</figcaption>
+			</figure>
+			<figure>
+				<img class="pic" src="images/i10.PNG" alt="pic10"/>
+				<img class="picbig" src="images/i10.PNG" alt="pic10"/>
+				<br/>
+				<figcaption>
+					As we can see, Git has accomplished its work as expected. In this image, we can read
+					words such as <strong>branch, master, commit and unstage.</strong> We will look at them briefly,
+					but for the moment, let's ignore them.
+				</figcaption>
+			</figure>
+			<h3 style="color:blue">Commit the added file</h3>
+			<figure>
+				<p>At this point, Git knows about <strong>MyFile.txt</strong>, but we have to perform another step
+				to fix the snapshot of its content. We have to commit it using the appropriate <strong>git
+				commit</strong> command. This time, we will add some flavor to our command, using the
+				<strong>--message (or -m)</strong> subcommand, as shown here:</p>
+				<img class="pic" src="images/i11.PNG" alt="pic11"/>
+				<img class="picbig" src="images/i11.PNG" alt="pic11"/>
+				<br/><br/>
+				<figcaption>
+					Press the Enter key.
+				</figcaption>
+				<img class="pic" src="images/i12.PNG" alt="pic12">
+				<img class="picbig" src="images/i12.PNG" alt="pic12">
+				<br/>
+			</figure>
 		</font>
 	</div>
 	<form >
-		<font size="5"><a id="butt" href="gitinstallation2.html">Back</a></font>
+		<font size="5">
+			<a id="butt" href="gitinstallation4.html">Next Page</a>
+			<a id="butt" href="gitinstallation2.html">Back</a>
+		</font>
 	</form>
 	
 	

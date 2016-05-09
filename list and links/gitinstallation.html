@@ -22,12 +22,25 @@
 			left:1000px;
 			display: inline;
 			border-radius: 5px;
-			font-size:25px;
 			border: 2px solid #F5F5DC;
 			background: #F0FFFF;
 			padding:3px;
 			margin: 2px;
 			box-shadow: 1px 1px 1px #888888;
+		}
+		.pic{
+			width:300px;
+			height:200px;
+		}
+		.picbig{
+			position: absolute;
+			width:0px;
+			-webkit-transition:  width 0.3s linear 0s;
+			transition: width 0.3s linear 0s;
+			z-index:10;
+		}
+		.pic:hover + .picbig{
+			width:600px;
 		}
 	</style>
 </head>
@@ -38,7 +51,7 @@
 		<marquee scrollamount="5" id="img1" style="color:white">SKY NET</marquee></b></font>
 		
 		<br/>
-		<ul id="sample">
+		<ul >
 			<li id="kid1"><a href="list.html">HOME</a></li>
 			<li id="kid1"><a href="git.html">GIT</a></li>
 			<li id="kid1"><a href="htmlfile.html">HTML</a></li>
@@ -52,23 +65,25 @@
 	</section>
 	<div>
 		<h2 style="color:blue">How to instal Git!</h2>
-		<font size="4">Its too easy just following those steps.</font><br/>
-		<font size="4"><strong>Step 1:<br></strong> First you need a Git file to
-		<a href="https://git-scm.com/downloads"><b>Download</b></a> and install whatever
-		you using (Linux, Mac OS X, Solaris or Windows).<br/><br/>
-		Here, I won't go into too much detail
-		about the installation process itself. I will only provide a few recommendations for
-		Windows users shown in the following screenshot:<br><br>
-		After download a Git setup we need to intall it.
-		following those pictures may be help you..<br/><br/>
 		<figure>
-			<img src="images/in1.PNG" width="500" height="400"/>
+			<font size="4">Its too easy just following those steps.</font><br/>
+			<font size="4"><strong>Step 1:<br></strong> First you need a Git file to
+			<a href="https://git-scm.com/downloads"><b>Download</b></a> and install whatever
+					you using (Linux, Mac OS X, Solaris or Windows).<br/><br/>
+					Here, I won't go into too much detail
+					about the installation process itself. I will only provide a few recommendations for
+					Windows users shown in the following screenshot:<br><br>
+					After download a Git setup we need to intall it.
+					following those pictures may be help you..<br/><br/>
+			<img class="pic" src="images/in1.PNG" alt="pic1"/>
+			<img class="picbig" src="images/in1.PNG" alt="pic1"/>
 				<figcaption>Enabling Windows Explorer integration is generally useful; you will benefit
 					from a convenient way to open a Git prompt in any folder by right-clicking on
 					the contextual menu.<br/></figcaption>
 		</figure>
 		<figure>
-			<img src="images/in2.PNG" width="500" height="400"/><br/>
+			<img class="pic" src="images/in2.PNG" alt="pic2"/>
+			<img  class="picbig" src="images/in2.PNG" alt="pic2"/><br/>
 				<figcaption>
 					Git is provided with an embedded Windows-compatible version of the famous Bash
 					shell from Linux, which we will use extensively. By doing this, we will also make Git
@@ -77,7 +92,9 @@
 				</figcaption>
 		</figure>
 		<figure>
-			<img src="images/in3.PNG" width="500" height="400"/><br/>
+			<img class="pic" src="images/in3.PNG" alt="pic3"/>
+			<img class="picbig" src="images/in3.PNG" alt="pic3"/>
+			<br/>
 				<figcaption>
 					Use defaults for line endings. This will protect you from future annoyances.
 					At the end of the process, we will have Git installed, and all its *nix friends will be
@@ -89,6 +106,7 @@
 	</div>
 	<form>
 		<a id="butt" href="gitinstallation2.html">Next page</a>
+		<a id="butt" href="git.html">Back</a>
 	</form>
 	
 	
