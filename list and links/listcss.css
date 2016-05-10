@@ -1,6 +1,8 @@
 body{
-	background: -webkit-linear-gradient(left, #DCDCDC, #bcbdc4);
+	background: -webkit-linear-gradient( #DCDCDC, #bcbdc4);
 	height:6000px;
+	padding:0px;
+	margin:0px;
 }
 .headerx{
 	position:fixed;
@@ -106,7 +108,6 @@ a{
 	left:0;
 	color:white;
 	z-index:7;
-	font-family: verdana;
 }
 #img1{
 	left:100px;
@@ -135,4 +136,38 @@ a{
 	width:190px;
 	height:180px;
 	background-color:#DCDCDC;
+}
+#searchbar{
+	position:relative;
+	left:1000px;
+	border: 1px solid #000000;
+	border-right:none;
+	font-size: 16px;
+	padding:10px;
+	background:#bcbdc4;
+	outline:none;
+	width:250px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#searchbtn{
+	position:relative;
+	left:1000px;
+	border: 1px solid #000000;
+	font-size:16px;
+	padding:10px;
+	background:#87CEFA;
+	font-weight: bold;
+	cursor:pointer;
+	outline:none;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }

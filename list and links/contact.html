@@ -1,8 +1,49 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Advanced Features</title>
+	<meta charset="utf-8"/>
+	<meta name="keyword" content="GIT,HTML5,CSS3"/>
+	<meta name="discription" content="What is git, how to install git, how to work in git, 
+	how to use commit in git, how to use push and pull request in git"/>
+	<meta http-equiv="refresh" content="60"/>
+	<meta name="auther" content="Salman zafar"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>About us</title>
 	<link  rel="stylesheet" href="listcss.css"/>
+	<style>
+		body{
+			padding: 200px 300px;
+			font-size:20px;
+			font-style:arial;
+		}
+		input, textarea{
+			
+			padding:10px;
+			border:1px solid rgb(43,195,214);
+			border-radius: 5px;
+			width:200px;
+			box-shadow: rgb(0,0,0,0.1) 0px 0px 8px;
+			-moz-box-shadow: rgb(0,0,0,0.1) 0px 0px 8px;
+			-webkit-box-shadow: rgb(0,0,0,0.1) 0px 0px 8px;
+		}
+		textarea{
+			width: 400px;
+			height: 100px;
+			max-width: 400px;
+			line-height: 20px;
+		}
+		.contact{
+			position:relative;
+			
+		}
+		#submit{
+			width:80px;
+			background:rgb(43,195,214);
+			border-radius: 5px;
+			color:white;
+			font-size:18px;
+		}
+	</style>
 </head>
 <body style="height:1300px">
 	<form class="headerx"></form>
@@ -16,12 +57,26 @@
 			<li id="kid1"><a href="git.html">GIT</a></li>
 			<li id="kid1"><a href="htmlfile.html">HTML</a></li>
 			<li id="kid1"><a href="css.html">CSS</a></li>
-			<li id="kid1"><a href="contact.html">CONTACT</a></li>
+			<li id="kid1"><a href="contact.html">About us</a></li>
 		</ul>
 	</section>
-	<section>
-		<></>
-	</section>
+	<form class="contact" action="M.salman.zafar@gmail.com" method="post">
+		
+		<label>
+			<span>Your Name</span><br>
+			<input type="text" name="name"><br>
+		</label>
+		<label>
+			<span>Your Email</span><br>
+			<input type="Email" name="email"><br>
+		</label>
+		<label>
+			<span>Your Message</span><br>
+			<textarea name="name"></textarea><br>
+		</label>
+		
+		<input id="submit" type="submit" value="Send" name="email">
+	</form>
 	
 
 </body>
