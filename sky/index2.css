@@ -8,7 +8,7 @@ body{
 	margin-top:0px;
 	padding:0px;
 	width:85%;
-	height:3000px;
+	height:2730px;
 	background-color:white;
 }
 .header2{
@@ -17,7 +17,7 @@ body{
 	padding:0px;
 	width:95%;
 	height:200px;
-	background-color:rgb(143,232,232);
+	background-color:#00FA9A;
 	box-shadow: 0px 5px 6px gray;
 }
 #sky{
@@ -53,7 +53,7 @@ a{
 	margin-top:30px;
 	padding:0px;
 	width:60%;
-	height:2300px;
+	height:2500px;
 	background:#FFFAF0;
 	box-shadow: 1px 1px 0px gray;
 }
@@ -70,11 +70,11 @@ a{
 }
 #sub{
 	position:relative;
-	left:750px;
+	left:65%;
 	top:100px;
 	
 }
-.h3{
+.subscribe{
 	position:absolute;
 	background-color:rgb(143,232,232);
 	width:30%;
@@ -89,13 +89,48 @@ a{
 	padding:5px;
 }
 .input1{
-	width:200px;
+	width:20%px;
 	height:30px;
+	font-size:18px;
 }
 .subs{
-	background-color:blue;
-	width:50%;
+	background-color:#00CED1;
+	width:40%;
 	height:30px;
-	color:white;
-	border:white;
+	color:black;
+	font-weight:bold;
+}
+#comments{
+	width:90%;
+	height:150px;
+	background-color:#FFEFD5;
+	font-size:15px;
+	font-family:arial;
+}
+#text1{
+	width:40%;
+	height:30px;
+}
+.post{
+	position:relative;
+	left:70%;
+	width:22%;
+	height:32px;
+	font-family:arial;
+	background:#00CED1;
+	color:black;
+	font-weight:bold;
+}
+.footer1{
+	position:static;
+	padding:0px;
+	width:100%;
+	height:300px;
+	background-color:#00FA9A ;
+}
+.about{
+	position:absolute;
+	margin:20px;
+	padding:20px;
+	color:black;
 }
