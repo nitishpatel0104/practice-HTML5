@@ -1,0 +1,48 @@
+#logo{
+	width:280px;
+	height:180px;
+	margin-left:40%;
+	margin-top:11%;
+}
+#p{
+	position:absolute;
+	color: #6495ED;
+	font-family:arial;
+	font-size:17px;
+	left:765px;
+	top:273px;
+	
+}
+.search{
+	position:absolute;
+	width:580px;
+	height:15px;
+	font-size:17px;
+	margin-left:380px;
+	top:320px;
+	padding:10px;
+	overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+	font-family: arial,sans-serif;
+}
+
+.mic{
+	position:relative;
+	left:945px;
+	padding: 15px;
+    background-image: url("mic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.button{
+	width:120px;
+	height:30px;
+}
+.buttons{
+	position:absolute;
+	width:25%;
+	margin-top:30px;
+	margin-left:550px;
+	
+}
