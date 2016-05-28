@@ -9,7 +9,7 @@ body{
 	padding:0px;
 	width:85%;
 	height:2730px;
-	background-color:white;
+	background-color:#F0F8FF;
 }
 .header2{
 	margin-left:28px;
@@ -33,17 +33,17 @@ body{
 }
 #list li{
     position: relative;
-    top:80px;
+    top:45px;
     margin:7px;
     padding: 0px;
     display: inline;
     font-size:20px;
 }
-a{
+#a{
     text-decoration: none;
     color:#b3ffff;
     transition: all 1s;
-	
+	cursor:pointer;
 }
 .header #list a:hover{
     font-size:25px;
@@ -56,7 +56,7 @@ a{
 	padding:0px;
 	width:60%;
 	height:91.5%;
-	background:#FFFAF0;
+	background:#F0F8FF;
 	box-shadow: 1px 1px 0px gray;
 }
 #img1{
@@ -74,7 +74,6 @@ a{
 	position:relative;
 	left:65%;
 	top:100px;
-	
 }
 .subscribe{
 	position:absolute;
@@ -84,23 +83,28 @@ a{
 	border:2px solid gray;
 	box-shadow: 0px 3px 3px gray;
 	padding:5px;
+	border-radius:7px;
 }
 .email{
 	position:absolute;
 	top:40px;
 	padding:5px;
+	
 }
 .input1{
-	width:20%px;
+	width:110%;
 	height:30px;
-	font-size:18px;
+	font-size:16px;
+	
 }
-.subs{
+#subs{
 	background-color:#00CED1;
 	width:40%;
 	height:30px;
 	color:black;
 	font-weight:bold;
+	border-radius:7px;
+	cursor:pointer;
 }
 #comments{
 	width:90%;
@@ -122,11 +126,13 @@ a{
 	background:#00CED1;
 	color:black;
 	font-weight:bold;
+	border-radius:7px;
+	cursor:pointer;
 }
 .footer1{
 	position:static;
 	width:100%;
-	height:400px;
+	height:350px;
 	background-color:#004d4d;
 	color:white;
 	font-family: inherit;
@@ -151,6 +157,11 @@ a{
 	position:absolute;
 	padding-left:420px;
 }
+#a1{
+	text-decoration: none;
+	color:white;
+	cursor:pointer;
+}
 #foot{
 	padding:20px;
 }
@@ -161,4 +172,38 @@ a{
 }
 .p2{
 	width:200px;
+}
+#searchbar{
+	position:relative;
+	left:750px;
+	border: 1px solid #000000;
+	border-right:none;
+	font-size: 16px;
+	padding:10px;
+	background:#87CEFA;
+	outline:none;
+	width:250px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#searchbtn{
+	position:relative;
+	left:750px;
+	border: 1px solid #000000;
+	font-size:16px;
+	padding:10px;
+	background:#87CEFA;
+	font-weight: bold;
+	cursor:pointer;
+	outline:none;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
