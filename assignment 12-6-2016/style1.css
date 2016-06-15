@@ -1,0 +1,64 @@
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-color:rgba(23,132,323,0.1);
+}
+#list li{
+    position: relative;
+    top:0.2em;
+    margin:0.5em;
+    padding: 0px;
+    display: inline;
+    font-size:120%;
+
+}
+#a1{
+    text-decoration: none;
+    transition: all 1s;
+	cursor:pointer;
+	color:black;
+}
+#list a:hover{
+    font-size:1.5em;
+	color:blue;
+}
+.align{
+	text-align:right;
+	padding-right:10em;
+}
+.img1{
+	background-image: url(light_bulb.jpg);
+	 background-repeat: repeat-y;
+	width:100%;
+	height:18em;
+}
+.container1{
+	position:relative;
+	color:white;
+	padding-top:3em;
+	line-height:1em;
+}
+#h1{
+	font-size:4em;
+	padding-left:3em;
+}
+#text1{
+	font-size:1.5em;
+	padding-left:4.3em;
+}
+.btn1{
+	position:absolute;
+	text-align:center;
+	width:6em;
+	height:1.2em;
+	font-size:1.5em;
+	background-color:orange;
+	margin-left:4.5em;
+	border-radius:0.2em;
+	padding-top:0.4em;
+}
+#a2{
+	text-decoration:none;
+	color:white;
+}
