@@ -2,7 +2,8 @@ body{
 	margin:0px;
 	padding:0px;
 	width:100%;
-	background-color:rgba(23,132,323,0.1);
+	background-color:rgba(123,132,123,0.1);
+	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #list li{
     position: relative;
@@ -27,10 +28,6 @@ body{
 	text-align:right;
 	padding-right:10em;
 }
-#image{
-	width:2em;
-	height:1em;
-}
 .img1{
 	background-image: url(light_bulb.jpg);
 	 background-repeat: repeat-y;
@@ -38,7 +35,6 @@ body{
 	height:18em;
 }
 .container1{
-	position:relative;
 	color:white;
 	padding-top:3em;
 	line-height:1em;
@@ -46,7 +42,7 @@ body{
 }
 #h1{
 	font-size:4em;
-	padding-left:2em;
+	padding-left:1.8em;
 }
 #text1{
 	font-size:1.5em;
@@ -72,7 +68,7 @@ body{
 }
 .h1{
 	margin-top:50px;
-	color:orange;
+	color:#dd845a;
 	font-size:40px;
 }
 .text1{
@@ -84,6 +80,10 @@ body{
 }
 .row-promo{
 	
+}
+.h3{
+	padding-top:85px;
+	font-size:28px;
 }
 .item-1{
 	background:url('mung_beans.jpg');
@@ -105,42 +105,42 @@ body{
 }
 #rwap{
 	width:85%;
-	height:500px;
-	padding-top:30px;
+	height:450px;
+	padding-top:10px;
 	padding-left:140px;
 }
 .box1{
 	width:250px;
 	height:auto;
-	border:2px solid #DCDCDC;
+	border:1px solid #DCDCDC;
 	float:left;
-	box-shadow:0px 2px 2px gray;
+	box-shadow:0px 1px 1px gray;
 	border-radius:10px;
 }
 .box2{
 	width:250px;
 	height:auto;
-	border:2px solid #DCDCDC;
+	border:1px solid #DCDCDC;
 	float:left;
 	margin-left: 20px;
-	box-shadow:0px 2px 2px gray;
+	box-shadow:0px 1px 1px gray;
 	border-radius:10px;
 }
 .box3{
 	width:250px;
 	height:auto;
-	border:2px solid #DCDCDC;
+	border:1px solid #DCDCDC;
 	float:left;
-	box-shadow:0px 2px 2px gray;
+	box-shadow:0px 1px 1px gray;
 	border-radius:10px;
 }
 .box4{
 	width:250px;
 	height:auto;
-	border:2px solid #DCDCDC;
+	border:1px solid #DCDCDC;
 	float:left;
 	margin-left: 20px;
-	box-shadow:0px 2px 2px gray;
+	box-shadow:0px 1px 1px gray;
 	border-radius:10px;
 }
 .product1{
@@ -149,7 +149,7 @@ body{
 	padding-left:10px;
 }
 .product-heading{
-	color:orange;
+	color:#dd845a;
 	padding-left:10px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:18px;
@@ -158,4 +158,32 @@ body{
 	padding-left:10px;
 	font-family:;
 	padding-left:10px;
+}
+#img2{
+	margin-top:10px;
+	border-radius:300px;
+}
+.find{
+	color:#dd845a;
+	font-size:2em;
+	font-family: Helvetica;
+}
+#us{
+	color:#dd845a;
+	font-size:1.5em;
+	font-family: Helvetica;
+}
+#img3{
+	width:100%;
+	height:300px;
+}
+.lead{
+	line-height:28px;
+	color:gray;
+	font-size:21px;
+}
+#footer{
+	width:100%;
+	height:350px;
+	background-color:#E6E6FA;
 }
