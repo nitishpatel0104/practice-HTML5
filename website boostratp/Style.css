@@ -1,0 +1,148 @@
+body,
+html{
+	min-height:100%;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+.header-x{
+	position:fixed;
+	width:100%;
+	height:100px;
+	top:0;
+	left:0;
+	z-index:7;
+	font-family:verdana;
+	
+}
+.header-y{
+	position:fixed;
+	width:100%;
+	height:100px;
+	background:	#E3FFFF;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	box-shadow: 0px 10px 15px #D3D3D3;
+}
+.list{
+	position:absolute;
+	text-align:right;
+	width:1250px;
+	height:50px;
+	//border:2px solid gray;
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:22px;
+}
+.a1{
+	text-decoration:none;
+	font-family:arial;
+	color:black;
+	margin:7px 10px 5px 10px;
+	padding:10px 15px 10px 15px;
+}
+.a2{
+	text-decoration:none;
+	font-family:arial;
+	color:white;
+}
+.list-item1{
+	font-size:20px;
+	display:inline-block;
+	
+}
+.a1:hover{
+	padding:10px 15px 10px 15px;
+	background-color:#D2EAF1;
+	border-radius:10px;
+	cursor:pointer;
+}
+.list-item2{
+	font-size:20px;
+	display:inline-block;
+}
+.a1:hover{
+	padding:10px 15px 10px 15px;
+	background-color:#D2EAF1;
+	border-radius:10px;
+	cursor:pointer;
+}
+.list-item3{
+	font-size:20px;
+	display:inline-block;
+}
+.a1:hover{
+	padding:10px 15px 10px 15px;
+	background-color:#D2EAF1;
+	border-radius:10px;
+	cursor:pointer;
+}
+.list-item4{
+	background-color:red;
+	padding:8px 20px 8px 20px;
+	font-size:20px;
+	display:inline-block;
+	margin:7px 40px 5px 10px;
+	color:white;
+	border-radius:18px;
+}
+.list-item4:hover{
+	background-color:#DC143C;
+	cursor:pointer;
+}
+.background-image{
+	margin:100px 0px 0px 0px;
+	width:1349px;
+	height:700px;
+	position:absolute;
+	//border:2px solid gray;
+	background-image:url(3.jpg);
+	 background-repeat: no-repeat;
+	 background-size:cover;
+}
+.text-box{
+	margin:150px 0px 0px 100px;
+	border:2px solid gray;
+	width:800px;
+	height:auto;
+}
+.text1{
+	color:white;
+	font-size:80px;
+	font-family:"Playfair Display", sans-serif;
+
+}
+.text2{
+	color:white;
+	font-size:18px;
+	font-family:"Playfair Display", sans-serif;
+}
+.button1{
+	font-family:arial, sans-serif;
+	font-size:23px;
+	background:orange;
+	padding:15px 25px 15px 25px;
+	border-radius:30px;
+	margin:20px;
+	color:white;
+	text-decoration:none;
+}
+.button1:hover{
+	background-color:#FF8C00;
+}
+.button2{
+	font-family:arial, sans-serif;
+	font-size:23px;
+	background:white;
+	padding:15px 25px 15px 25px;
+	border-radius:30px;
+	margin:20px;
+	color:black;
+	text-decoration:none;
+}
+.button2:hover{
+	color:orange;
+}
