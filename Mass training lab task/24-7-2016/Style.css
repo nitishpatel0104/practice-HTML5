@@ -46,8 +46,12 @@ body{
 	font-size:1em;
 }
 .mic{
-	width:35px;
-	height:auto;
+	//border:1px solid green;
+	position:relative;
+	width:30px;
+	height:;
+	top:-34px;
+	margin-left:95%;
 }
 .search-engin:hover{
 	border:1px solid gray;
