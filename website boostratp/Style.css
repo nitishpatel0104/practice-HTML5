@@ -51,7 +51,7 @@ body{
 	cursor:pointer;
 	border-radius:15px;
 	box-shadow:0px 1px 1px gray;
-	transition:.3s;
+	transition:.1s;
 }
 .list-item2{
 	margin:10px 10px 10px 10px;
@@ -64,7 +64,7 @@ body{
 	background-color:blue;
 	cursor:pointer;
 	box-shadow:0px 2px 2px gray;
-	transition:.3s;
+	transition:.1s;
 }
 .first-box{
 	position:relative;
@@ -193,8 +193,9 @@ body{
 	border-radius:12px 0px 12px 12px;
 }
 .share-image1:hover{
-	box-shadow:0px 5px 2px white;
+	box-shadow:0px 4px 2px white;
 	opacity:1;
+	transition:0.5s;
 }
 .share-image2{
 	opacity:0.7;
@@ -206,8 +207,9 @@ body{
 	border-radius:0px 0px 12px 12px;
 }
 .share-image2:hover{
-	box-shadow:0px 5px 2px white;
+	box-shadow:0px 4px 2px white;
 	opacity:1;
+	transition:0.5s;
 }
 .share-image3{
 	opacity:0.7;
@@ -218,17 +220,21 @@ body{
 	background-color:#9C2626;
 	border-radius:0px 12px 12px 12px;
 }.share-image3:hover{
-	box-shadow:0px 5px 2px white;
+	box-shadow:0px 4px 2px white;
 	opacity:1;
+	transition:0.5s;
 }
 .video-tutorials{
 	//border:1px solid white;
 	background-color:#F6F6F6;
 	opacity:0.9;
 	border-radius:10px;
+	box-shadow:0px 5px 5px 5px white;
 	width:25%;
 	height:250px;
 	margin:100px 100px 0px 65%;
+	min-width:24%;
+	min-height:240px;
 }
 .second-heading{
 	position:relative;
@@ -265,6 +271,7 @@ body{
 .video-link:hover{
 	background-color:black;
 	color:white;
+	transition:1s;
 	border:2px solid white;
 	box-shadow:0px 3px 2px blue;
 }
@@ -506,8 +513,8 @@ body{
 	font-size:1.4em;
 	font-family:arial;
 	height:250px;
-	box-shadow:0px 1px 1px 1px gray;
-	border-radius:6px;
+	box-shadow:0px 1px 14px 1px gray;
+	border-radius:25px 0px 25px 0px;
 }
 .fifth-box-image{
 	margin-top:-30px;
@@ -520,10 +527,29 @@ body{
 	height:250px;
 	//border:2px solid blue;
 }
+.fifth-box-table2{
+	margin:0px;
+	border-spacing:0px;
+}
 .fifth-box2-image{
 	width:333px;
 	height:248px;
+	padding:0px;
+	margin:0px;
 }
+.fifth-box2-child{
+	background-color:white;
+	//border:1px solid gray;
+	text-align:center;
+	font-size:1.4em;
+	font-family:arial;
+	height:auto;
+}
+.fifth-box2-child:hover{
+	box-shadow:0px 1px 14px 1px gray;
+	cursor:pointer;
+}
+
 /*-----------------------------------------------------------------------------------------------*/
 .box-bottom{
 	width:100%;
