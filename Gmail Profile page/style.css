@@ -1,0 +1,76 @@
+body{
+	margin:0px;
+	padding:0px;	
+}
+/*--------------------------------Css for Header-------------------------------------*/
+.header-parent1{
+	width:100%;
+	height:110px;
+	//border:2px solid black;
+	background-color:rgba(0,0,0,0.1);
+	position:fixed;
+	
+}
+.header-child0{
+	width:98%;
+	height:60px;
+	border:2px solid blue;
+	margin:0px auto 0px auto;
+}
+.header-child1{
+	width:8%;
+	height:45px;
+	border:2px solid green;
+	margin:5px 0px 5px 15px;
+	float:left;
+}
+.header-image1{
+	width:90px;
+	height:32px;
+	padding:10px 5px 5px 10px;
+}
+.header-child2{
+	width:55%;
+	height:45px;
+	border:2px solid green;
+	margin:5px 0px 5px 50px;
+	float:left;
+}
+.header-child2-search{
+	position:relative;
+	top:-5px;
+	width:80%;
+	height:28px;
+	border:hidden;
+	border:1px solid #D3D3D3;
+}
+.header-child2-search:hover{
+	border:1px solid #8594A3;
+}
+.background-search-image{
+	width:20px;
+	height:15px;
+	margin:0px auto 0px auto;
+	padding:5px 10px 2px 10px;
+}
+.child2-search-button{
+	width:60px;
+	height:28px;
+	background-color: #4747FF;
+	border:white;
+	margin:10px 0px 10px 0px;
+	padding:0px 0px 0px 0px;
+	border-radius:0px 5px 5px 0px;
+}
+.child2-search-button:hover{
+	box-shadow:0px 0px 1px 1px #4747FF;
+}
+
+
+.header-child3{
+	width:20%;
+	height:45px;
+	border:2px solid green;
+	margin:5px 20px 5px 10px;
+	float:right;
+}
