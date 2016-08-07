@@ -114,10 +114,19 @@ body{
 	color:red;
 	border:hidden;
 }
+.button1{
+	margin-top:6px;
+	width:75px;
+	margin-left:18px;
+	opacity:0.6;
+	float:left;
+}
 .button2{
 	margin-top:6px;
 	width:75px;
+	margin-left:18px;
 	opacity:0.6;
+	float:left;
 }
 .image-button2{
 	width:20px;
@@ -125,6 +134,28 @@ body{
 }
 .button2:hover{
 	opacity:0.7;
+	
+}
+.button3{
+	margin-top:6px;
+	margin-left:18px;
+	width:75px;
+	opacity:0.7;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:7px;
+	padding-right:7px;
+	float:left;
+}
+.button3:hover{
+	opacity:0.8;
+	
+}
+.more-options{
+	border:hidden;
+	background-color:rgba(0,0,0,0.0);
+	font-size:16px;
+	color:black;
 	
 }
 .bottom-child2{
