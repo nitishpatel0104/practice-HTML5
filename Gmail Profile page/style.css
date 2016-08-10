@@ -9,14 +9,14 @@ body{
 	border:1px solid lightgray;
 	background-color:white;
 	position:fixed;
-	box-shadow:0px 2px 5px gray;
+	box-shadow:0px 1px 3px gray;
 }
 .header-child0{
 	width:100%;
 	height:60px;
 	//border:2px solid blue;
 	margin:0px auto 0px auto;
-	background-color:rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.060);
 }
 .header-child1{
 	width:8%;
@@ -49,7 +49,7 @@ body{
 	border:1px solid #8594A3;
 }
 .background-search-image{
-	width:20px;
+	width:15px;
 	height:15px;
 	margin:0px auto 0px auto;
 	padding:5px 10px 2px 10px;
@@ -80,7 +80,7 @@ body{
 	top:-7px;
 	
 }
-.header-child3-image{
+.header-child3-image1{
 	width:26px;
 	height:26px;
 	background-color:;
@@ -89,7 +89,31 @@ body{
 	margin-left:15px;
 	opacity:0.5;
 }
-.header-child3-image:hover{
+.header-child3-image2{
+	width:26px;
+	height:26px;
+	background-color:;
+	border-radius:50%;
+	//border:1px solid gray;
+	margin-left:15px;
+	opacity:0.5;
+}
+.header-child3-image3{
+	width:34px;
+	height:32px;
+	background-color:;
+	border-radius:50%;
+	//border:1px solid gray;
+	margin-left:15px;
+	opacity:0.8;
+}
+.header-child3-image1:hover{
+	opacity:1;
+}
+.header-child3-image2:hover{
+	opacity:1;
+}
+.header-child3-image3:hover{
 	opacity:1;
 }
 /*--------------------------------Css for Header-Bottom-------------------------------------*/
@@ -113,16 +137,18 @@ body{
 	font-size:20px;
 	color:red;
 	border:hidden;
+	cursor:pointer;
 }
 .button1{
 	margin-top:6px;
 	width:75px;
+	height:33px;
 	margin-left:18px;
 	opacity:0.6;
 	float:left;
 }
 .button1-image1{
-	margin-top:4px;
+	margin-top:3px;
 }
 .button1-image2{
 	width:10px;
@@ -130,6 +156,7 @@ body{
 .button2{
 	margin-top:6px;
 	width:75px;
+	height:33px;
 	margin-left:18px;
 	opacity:0.6;
 	float:left;
@@ -140,7 +167,7 @@ body{
 }
 .image-button2{
 	width:20px;
-	padding-top:5px;
+	padding-top:2px;
 }
 .button2:hover{
 	opacity:0.7;
@@ -150,6 +177,7 @@ body{
 	margin-top:6px;
 	margin-left:18px;
 	width:75px;
+	height:33px;
 	opacity:0.7;
 	float:left;
 }
@@ -176,22 +204,22 @@ body{
 	width:10%;
 	height:40px;
 	//border:1px solid gray;
-	margin:3px 30px 0px 0px;
+	margin:3px 10px 0px 0px;
 	float:right;
 }
 /*--------------------------------Css for Left Compose options-------------------------------------*/
 .left-box{
 	position:fixed;
-	top:112px;
+	top:114px;
 	width:15%;
 	height:550px;
-	border:2px solid gray;
+	//border:2px solid gray;
 }
 .left-box-child{
 	margin:0px auto 0px auto;
-	width:90%;
-	height:300px;
-	border:1px solid green;
+	width:95%;
+	height:514px;
+	//border:1px solid green;
 }
 .left-box-button{
 	margin-top:8px;
@@ -214,7 +242,7 @@ body{
 	padding:4px 10px 4px 23px ;
 }
 .index-space:hover{
-	background-color:rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.050);
 }
 .index{
 	color:#d14836;
@@ -230,7 +258,7 @@ body{
 	padding:4px 10px 4px 23px ;
 }
 .starred-space:hover{
-	background-color:rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.050);
 }
 .starred{
 	color:#000;
@@ -246,7 +274,7 @@ body{
 	padding:4px 10px 4px 23px ;
 }
 .mail-space:hover{
-	background-color:rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.050);
 }
 .mail{
 	color:#000;
@@ -262,7 +290,7 @@ body{
 	padding:4px 10px 4px 23px ;
 }
 .draft-space:hover{
-	background-color:rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.050);
 }
 .draft{
 	color:#000;
@@ -272,10 +300,10 @@ body{
 	font-weight:;
 }
 .more-space{
-	width:75%;
+	width:80%;
 	//border:1px solid green;
 	margin:6px auto 0px auto;
-	padding:4px 10px 4px 16px ;
+	padding:4px 10px 4px 23px ;
 }
 .more{
 	color:#000;
@@ -287,35 +315,132 @@ body{
 	outline:0px;
 }
 .user-info{
-	width:84%;
+	width:78%;
 	//border:1px solid green;
-	margin:-10px auto 0px auto;
-	padding:4px 3px 4px 16px ;
+	margin:10px auto 0px auto;
+	padding:4px 3px 4px 0px ;
+	border-top:1px solid rgba(0,0,0,0.1);
+	border-bottom:1px solid rgba(0,0,0,0.1);
 }
 .user-pic{
-	width:30px;
+	width:25px;
 	border-radius:50%;
 }
 .info{
 	color:#000;
 	text-decoration:none;
-	font-size:13px;
+	font-size:12px;
 	font-family:arial;
 	font-weight:;
 	border:hidden;
 	outline:0px;
 }
 .search-option{
-	background-color:rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.1);
 	border:hidden;
 	opacity:0.5;
-	border:1px solid gray;
+	border:1px solid rgba(0,0,0,0.2);
 	border-radius:5px;
 }
 .search-option:hover{
 	opacity:0.8;
 }
 .search-option-image{
-	width:18px;
+	width:15px;
 	padding:3px 2px 3px 2px;
+}
+.bottom-left-box{
+	width:95%;
+	height:30px;
+	border-top:1px solid rgba(0,0,0,0.1);
+	//border:1px solid gray;
+	margin:0px auto 0px auto;
+	clear: both;
+    z-index: 10;
+}
+.bottom-left-images1{
+	cursor:pointer;
+	margin-left:45px;
+	margin-top:4px;
+	opacity:0.4;
+	border:none;
+	background-color:rgba(0,0,0,0.0);
+}
+.bottom-left-images1:hover{
+	background-color:rgba(0,0,0,0.1);
+	opacity:0.9;
+}
+.bottom-left-images2{
+	cursor:pointer;
+	margin-left:-5px;
+	opacity:0.4;
+	border:none;
+	background-color:rgba(0,0,0,0.0);
+}
+.bottom-left-images2:hover{
+	background-color:rgba(0,0,0,0.1);
+	opacity:0.9;
+}
+.bottom-left-images3{
+	cursor:pointer;
+	margin-left:-5px;
+	opacity:0.4;
+	border:none;
+	background-color:rgba(0,0,0,0.0);
+}
+.bottom-left-images3:hover{
+	background-color:rgba(0,0,0,0.1);
+	opacity:0.9;
+}
+.image-size{
+	width:16px;
+	margin:3px;
+}
+/*--------------------------------Css for Message Container-------------------------------------*/
+.message-container{
+	position:fixed;
+	width:85%;
+	height:550px;
+	//border:2px solid blue;
+	margin:114px 0px 0px 207px;	
+	 overflow: scroll;
+}
+.header-message-container{
+	width:100%;
+	height:28px;
+	//border:1px solid red;
+}
+.header-message-option{
+	margin-left:10px;
+	margin-top:4px;
+	font-size:16px;
+	border:hidden;
+	outline:none;
+}
+.message{
+	width:98%;
+	height:40px;
+	//border:1px solid lightgray;
+	background-color:rgba(0,0,0,0.060);
+	border-top:1px solid rgba(0,0,0,0.1);
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.message-images1{
+	margin-left:15px;
+	margin-top:10px;
+}
+.message-images2{
+	margin-left:8px;
+	margin-top:10px;
+}
+.message-text0{
+	margin-left:20px;
+}
+.message-text1{
+	width:75%;
+	height:30px;
+	//border:1px solid green;
+	margin-left:140px;
+	font-size:14px;
+	font-family:arial;
 }
