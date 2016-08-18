@@ -218,7 +218,7 @@ body{
 	border-radius:50%;
 }
 .image-size{
-	width:550px;
+	width:92%;
 	height:360px;
 	vertical-align: middle;
 	border-radius:50%;
@@ -251,6 +251,147 @@ body{
 	background-color:rgba(0,200,80,0.9);
 	transition:1s;
 }
-.{
+/*------------------------------Css for box4----------------------------------*/
+.box-4{
+	padding-top:80px;
+	width:100%;
+	height:500px;
+	//border:2px solid pink;
+	background-color:#222;
+}
+.box-4-child{
+	margin:0px auto 0px auto;
+	width:90%;
+	height:400px;
+	//border:2px solid yellow;
+}
+.parent-container2{
+	margin:opx auto 0px auto;
+	//border:1px solid blue;
+}
+.text-container2{
+	width:50%;
+	height:380px;
+	//border:2px solid red;
+}
+
+
+.container-heading2{
+	font-family:inherit;
+	font-size:2em;
+	color:white;
+}
+.containertext2{
+	font-family:;
+	font-size:1.4em;
+	color: #777;
+}
+.it2{
+	margin:;
+	text-decoration:none;
+	color:black;
+	font-family:;
+	font-size:18px;
+	padding:18px 25px 18px 25px;
+	border-radius:30px;
+	background-color:white;
+}
+
+.image-container2{
+	width:50%;
+	height:380px;
+	//border:2px solid red;
+}
+.image-size2{
+	width:92%;
+	height:360px;
+	vertical-align: middle;
+	border-radius:50%;
+}
+/*------------------------------Css for box5----------------------------------*/
+.box-5{
+	width:100%;
+	height:200px;
+	//border:2px solid red;
+}
+.box-5-child{
+	width:100%;
+	height:200px;
+	//border:2px solid green;
+}
+.box-5-link1{
+	//border:2px solid blue;
+	width:33%;
+	height:200px;
+	margin:0px auto 0px auto;
+	float:left;
+	background-image:url("images/writing.jpg");
+	background-repeat:no-repeat;
+	background-repeat:cover;
+	background-size:100% auto;
+}
+.box5-link:hover{
+	cursor:pointer;
+	width:95%;
+	height:180px;
+	border:1px solid gray;
+	background-color:rgba(0,0,0,0.2);
+	margin:10px auto 0px auto;
+}
+.Unleash{
+	color:white;
+	font-family:;
+	font-size:2.2em;
+	text-decoration:none;
+	width:30%;
+	height:50px;
+	//border:2px solid red;
+	//background-color:rgba(0,0,0,0.3);
+	margin:80px auto 0px auto;
+}
+.box-5-link2{
+	//border:2px solid blue;
+	width:34%;
+	height:200px;
+	margin:0px auto 0px auto;
+	float:left;
+	background-image:url("images/concert.jpg");
+	background-repeat:no-repeat;
+	background-repeat:cover;
+	background-size:100% auto;
+}
+.Synergize{
+	color:white;
+	font-family:;
+	font-size:2.2em;
+	text-decoration:none;
+	width:35%;
+	height:50px;
+	//border:2px solid red;
+	//background-color:rgba(0,0,0,0.3);
+	margin:80px auto 0px auto;
+}
+.box-5-link3{
 	
+	//border:2px solid blue;
+	width:33%;
+	height:200px;
+	margin:0px auto 0px auto;
+	float:left;
+	background-image:url("images/pencil_sharpener.jpg");
+	background-repeat:no-repeat;
+	background-repeat:cover;
+	background-size:100% auto;
+}
+
+.Procrastinate{
+	color:white;
+	font-family:;
+	font-size:2.2em;
+	text-decoration:none;
+	width:47%;
+	height:50px;
+	//border:2px solid red;
+	//background-color:rgba(0,0,0,0.3);
+	margin:80px auto 0px auto;
 }
