@@ -89,7 +89,7 @@ body{
 .first-image{
 	width:100%;
 	height:650px;
-	//border:2px solid black;
+	//border:2px solid red;
 	background-image:url("images/header.jpg");
 	background-repeat:no-repeat;
 	background-repeat:cover;
@@ -150,46 +150,107 @@ body{
 }
 /*------------------------------Css for box2----------------------------------*/
 .box-2{
-	position:relative;
-	top:0px;
 	width:100%;
-	height:300px;
+	height:320px;
 	//border:2px solid red;
 	background-color:yellowgreen;
 }
 .box-child1{
-	position:relative;
-	top:;
-	width:80%;
-	height:250px;
+	width:90%;
+	//border:2px solid red;
+	margin:0px auto 0px auto;
+	height:auto;
+	
+}
+.picture-middle{
+	width:5%;
 	//border:2px solid red;
 	margin:0px auto 0px auto;
 }
 .box-2-image{
 	width:50px;
+	margin:60px auto 0px auto;
+}
+.box-heading{
+	width:80%;
 	height:auto;
-	margin:60px auto 0px 50%;
+	//border:2px solid red;
+	margin:0px auto 0px auto;
+}
+.text1{
 	text-align:center;
+	color:white;
+	font-size:1.9em;
+}
+.box-content{
+	width:55%;
+	height:auto;
+	//border:2px solid red;
+	margin:0px auto 0px auto;
+}
+.text2{
+	text-align:center;
+	color:white;
+	font-size:1em;
+	font-family:arial,sens-serif;
+	font-weight:normal;
+}
+/*------------------------------Css for box3----------------------------------*/
+.box-3{
+	width:100%;
+	height:auto;
+	//border:2px solid blue;
+}
+.box-3-child{
+	width:85%;
+	height:auto;
+	//border:2px solid blue;
+	margin:85px auto 85px auto;
+}
+.parent-container{
+	margin:0px auto 0px auto;
 	//border:2px solid red;
 }
-.picture-middle{
-	
-}
-.box-text1{
+.image-container{
+	width:45%;
 	height:auto;
-	text-align:center;
-	color:white;
-	font-family:arial,sens-serif;
-	font-size:31px;
-	font-weight:normal;
+	//border:2px solid red;
+	border-radius:50%;
 }
-.box-text2{
-	font-size:16px;
-	text-align:center;
+.image-size{
+	width:550px;
+	height:360px;
+	vertical-align: middle;
+	border-radius:50%;
+}
+.text-container{
+	width:50%;
+	height:auto;
+	//border:2px solid red;
+}
+.container-heading{
+	font-family:inherit;
+	font-size:2em;
+}
+.containertext{
+	font-family:;
+	font-size:1.4em;
+	color: #777;
+}
+.it{
+	margin:;
+	text-decoration:none;
 	color:white;
-	line-height:25px;
-	width:65%;
-	margin:0px auto 0px auto;
-	font-family:arial,sens-serif;
-	font-weight:normal;
+	font-family:;
+	font-size:18px;
+	padding:18px 25px 18px 25px;
+	border-radius:30px;
+	background-color:yellowgreen;
+}
+.it:hover{
+	background-color:rgba(0,200,80,0.9);
+	transition:1s;
+}
+.{
+	
 }
