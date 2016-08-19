@@ -145,8 +145,8 @@ body{
 	border-radius:30px;
 }
 .first-image-link:hover{
-	background-color:rgba(0,200,80,0.9);
-	transition:1s;
+	background-color:#40FF40;
+	transition:0.3;
 }
 /*------------------------------Css for box2----------------------------------*/
 .box-2{
@@ -154,6 +154,7 @@ body{
 	height:320px;
 	//border:2px solid red;
 	background-color:yellowgreen;
+	padding-top:60px;
 }
 .box-child1{
 	width:90%;
@@ -169,7 +170,7 @@ body{
 }
 .box-2-image{
 	width:50px;
-	margin:60px auto 0px auto;
+	margin:0px auto 0px auto;
 }
 .box-heading{
 	width:80%;
@@ -248,8 +249,8 @@ body{
 	background-color:yellowgreen;
 }
 .it:hover{
-	background-color:rgba(0,200,80,0.9);
-	transition:1s;
+	background-color:#40FF40;
+	transition:0.3;
 }
 /*------------------------------Css for box4----------------------------------*/
 .box-4{
@@ -394,4 +395,138 @@ body{
 	//border:2px solid red;
 	//background-color:rgba(0,0,0,0.3);
 	margin:80px auto 0px auto;
+}
+/*------------------------------Css for box6----------------------------------*/
+.box-6{
+	width:100%;
+	height:260px;
+	//border:2px solid red;
+	background-color:;
+}
+.box-6-child{
+	width:85%;
+	height:auto;
+	//border:2px solid green;
+	margin:0px auto 0px auto;
+}
+.image6{
+	width:50px;
+}
+.box-6-image{
+	width:5%;
+	height:auto;
+	//border:1px solid blue;
+	margin:50px auto 0px auto;
+}
+.box-6-heading{
+	text-align:center;
+	font-size:2em;
+	width:18%;
+	height:auto;
+	//border:1px solid blue;
+	margin:0px auto 0px auto;
+}
+.box-6-text{
+	text-align:center;
+	font-size:1.3em;
+	color:#777;
+	width:95%;
+	height:auto;
+	//border:1px solid blue;
+	margin:0px auto 0px auto;
+}
+.box-6-link{
+	text-align:center;
+	width:15%;
+	height:auto;
+	//border:1px solid blue;
+	margin:40px auto 0px auto;
+}
+.link6{
+	font-family:Open Sans;
+	border-radius:30px;
+	padding:20px 30px 20px 30px;
+	text-decoration:none;
+	color:white;
+	background-color:yellowgreen;
+}
+.link6:hover{
+	background-color:#40FF40;
+	transition:0.3s;
+}
+/*------------------------------Css for box6----------------------------------*/
+.box-7{
+	padding-top:120px;
+	width:100%;
+	height:350px;
+	//border:2px solid red;
+	background-color:yellowgreen;
+}
+.box-7-child{
+	width:25%;
+	height:250px;
+	//border:2px solid green;
+	margin:0px auto 0px auto;
+}
+.box-7-us{
+	margin:0px auto 0px auto;
+	width:80%;
+	height:auto;
+	//border:2px solid blue;
+	text-align:center;
+	color:white;
+	font-family:;
+	font-size:2.3em;
+}
+.box-7-phone{
+	margin:0px auto 0px auto;
+	width:18%;
+	height:auto;
+	//border:2px solid blue;
+}
+.phone{
+	width:60px;
+}
+.box-7-number{
+	margin:0px auto 0px auto;
+	width:80%;
+	height:auto;
+	//border:2px solid blue;
+	text-align:center;
+	color:white;
+	font-family:;
+	font-size:1.4em;
+}
+.box-7-message{
+	margin:0px auto 0px auto;
+	width:18%;
+	height:auto;
+	//border:2px solid blue;
+}
+.message{
+	width:60px;
+}
+.box-7-email{
+	margin:0px auto 0px auto;
+	width:80%;
+	height:auto;
+	//border:2px solid blue;
+	text-align:center;
+	color:white;
+	font-family:;
+	font-size:1.5em;
+}
+/*------------------------------Css for box6----------------------------------*/
+.box-8{
+	padding-top:60px;
+	width:100%;
+	height:80px;
+	//border:2px solid blue;
+}
+.copy{
+	color: #777;
+	margin:0px auto 0px auto;
+	width:18%;
+	height:20px;
+	//border:2px solid red;
 }
