@@ -45,11 +45,15 @@ body{
 	transition:0.3s;
 }
 .header-child2{
-	width:40%;
+	width:50%;
 	height:48px;
 	//border:1px solid orange;
 	float:right;
 	
+}
+.parent-list{
+	text-align:right;
+	margin-right:30px;
 }
 .header-options{
 	border:hidden;
@@ -69,8 +73,9 @@ body{
 	color:black;
 }
 .header-list{
+	
 	display:inline-block;
-	margin-left:10px;
+	//margin-right:10px;
 	margin-top:-20px;
 }
 .a1{
@@ -399,7 +404,7 @@ body{
 /*------------------------------Css for box6----------------------------------*/
 .box-6{
 	width:100%;
-	height:260px;
+	height:280px;
 	//border:2px solid red;
 	background-color:;
 }
@@ -421,7 +426,7 @@ body{
 .box-6-heading{
 	text-align:center;
 	font-size:2em;
-	width:18%;
+	width:25%;
 	height:auto;
 	//border:1px solid blue;
 	margin:0px auto 0px auto;
@@ -437,7 +442,7 @@ body{
 }
 .box-6-link{
 	text-align:center;
-	width:15%;
+	width:25%;
 	height:auto;
 	//border:1px solid blue;
 	margin:40px auto 0px auto;
@@ -454,7 +459,7 @@ body{
 	background-color:#40FF40;
 	transition:0.3s;
 }
-/*------------------------------Css for box6----------------------------------*/
+/*------------------------------Css for box7----------------------------------*/
 .box-7{
 	padding-top:120px;
 	width:100%;
@@ -516,7 +521,7 @@ body{
 	font-family:;
 	font-size:1.5em;
 }
-/*------------------------------Css for box6----------------------------------*/
+/*------------------------------Css for box8----------------------------------*/
 .box-8{
 	padding-top:60px;
 	width:100%;
