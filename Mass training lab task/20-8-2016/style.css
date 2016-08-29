@@ -2,21 +2,32 @@ body{
 	margin:0px;
 	padding:0px;
 }
+/*---------------------------CSS for Header---------------------------------------------------*/
 .parent{
+	background-color:white;
+	position:fixed;
+	z-index:10;
 	width:100%;
 	height:50px;
 	box-shadow:0px 2px 3px gray;
 	//border:2px solid red;
+	min-width:1100px;
+}
+.parent2{
+	margin:0px auto 0px auto;
+	width:92%;
+	height:48px;
+	//border:2px solid red;
 }
 .child1{
 	padding-top:1px;
-	width:40%;
+	width:45%;
 	height:48px;
 	//border:1px solid blue;
 	float:left;
 }
 .child2{
-	margin-left:10%;
+	margin-left:5%;
 	width:5%;
 	height:48px;
 	//border:1px solid blue;
@@ -26,14 +37,14 @@ body{
 	margin-left:10%;
 	width:18%;
 	height:48px;
-	border:1px solid blue;
+	//border:1px solid blue;
 	float:left;
 }
 .child4{
 	margin-right:8px;
 	width:15%;
 	height:48px;
-	border:1px solid blue;
+	//border:1px solid blue;
 	float:right;
 }
 .home-link{
@@ -54,14 +65,58 @@ body{
 }
 .search-engen{
 	padding-left:10px;
-	width:85%;
+	width:90%;
 	height:30px;
 	margin-top:10px;
 	border:hidden;
 	border:1px solid lightgray;
 	float:right;
 	border-radius:30px;
+	background-color:rgba(0,0,0,0.05);
+}
+.search-engen:hover{
+	outline:0px;
 }
 .search-image{
 	
+}
+.profile-images{
+	cursor:pointer;
+	width:35px;
+	height:;
+	border:1px solid gray;
+	border-radius:5px;
+	margin-top:5px;
+	margin-left:10px;
+	float:left;
+}
+
+.tweet-button{
+	font-family:arial,sens-serif;
+	color:white;
+	background-color:#7FDBB6;
+	text-decoration:none;
+	padding-left:20px;
+	padding-top:10px;
+	margin-top:5px;
+	margin-left:10px;
+	float:left;
+	//border:1px solid gray;
+	border-radius:5px;
+	width:60px;
+	height:27px;
+}
+.tweet-button:hover{
+	background-color:rgba(127,204,182,1);
+}
+/*---------------------------CSS for Container---------------------------------------------------*/
+.main-container{
+	position:relative;
+	border-radius:10px;
+	top:55px;
+	width:92%;
+	height:800px;
+	border:2px solid red;
+	margin:0px auto 0px auto;
+	background-color:lightgray;
 }

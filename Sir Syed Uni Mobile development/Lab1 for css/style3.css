@@ -1,0 +1,31 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:;
+}
+.parent{
+	background-color:#C9DAF9;
+	width:98%;
+	height:50px;
+	//border:1px solid red;
+	margin:10px auto 0px auto;
+}
+.child1{
+	margin-top:2px;
+	padding-left:20px;
+	width:15%;
+	height:47px;
+	//border:1px solid blue;
+	display:inline-block;
+}
+.child2{
+	margin-top:px;
+	width:82%;
+	height:45px;
+	//border:1px solid blue;
+	display:inline-block;
+}
+.logo{
+	padding:2px;
+	width:71px;
+}
