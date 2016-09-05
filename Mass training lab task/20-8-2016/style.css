@@ -287,7 +287,7 @@ body{
 }
 .following1-child1{
 	border-radius:5px;
-	margin-top:3px;
+	margin-top:5px;
 	margin-left:10px;
 	width:55px;
 	height:55px;
@@ -330,17 +330,20 @@ body{
 	border-spacing:0px;
 	cursor:pointer;
 }
-.follow-image{
-	margin-left:5px;
-	overflow:hidden;
-	width:85px;
-	height:28px;
-	border-radius:5px;
-	border:1px solid lightgray;
-}
-.follow-image:hover{
-	background-color:green;
-}
 .follow-button{
-	
+	font-family:arial,verdana,sens-serif;
+	border:1px solid lightgray;
+	padding:6px 10px 6px 10px;
+	color:black;
+	font-size:14px;
+	//border:1px solid green;
+	margin-left:10px;
+}
+.user-follow{
+	padding-right:5px;
+}
+.follow-button:hover{
+	transition:all .15s ease-in-out;
+	color:#7FDBB6;
+	box-shadow:0px 1px 1px 1px lightgray;
 }
