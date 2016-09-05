@@ -217,19 +217,19 @@ body{
 	text-decoration:underline;
 }
 .main-container-child2{
-	width:48%;
+	width:49%;
 	height:300px;
 	border:1px solid black;
 	float:left;
-	border-radius:6px;
+	border-radius:4px;
 	margin-left:8px;
 }
 .main-container-child3{
-	width:25%;
-	height:200px;
-	border:1px solid black;
+	width:24%;
+	height:auto;
+	//border:1px solid black;
 	float:left;
-	border-radius:6px;
+	border-radius:4px;
 	margin-left:8px;
 }
 .Trends1{
@@ -275,15 +275,87 @@ body{
 	margin-left:20px;
 }
 .follows{
+	background-color:white;
 	width:99%;
 	height:40px;
 	//border:1px solid red;
 }
 .following1{
 	width:99%;
-	height:70px;
-	border:1px solid red;
-	
+	height:75px;
+	//border:1px solid red;
+	background-color:white;
+}
+.following2{
+	border-radius:0px 0px 4px 4px;
+	background-color:#F6F6F6;
+	width:100%;
+	height:100px;
+	//border:1px solid red;
+}
+.following1-child111{
+	background-color:white;
+	margin-left:15px;
+	margin-top:10px;
+	border:1px solid #EFEFEF;
+	border-radius:4px;
+	width:16%;
+	height:45px;
+	float:left;
+}
+.following1-child222{
+	margin-top:10px;
+	//border:1px solid lightgray;
+	border-radius:4px;
+	width:70%;
+	height:35px;
+	float:left;
+	padding:5px;
+}
+.gmail-logo{
+	width:40px;
+	margin:3px;
+}
+.gmail-contacts1{
+	font-family:arial,verdana,sens-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.gmail-contacts2{
+	//padding:3px;
+	font-family:arial,verdana,sens-serif;
+	font-size:13px;
+	font-weight:;
+	color:gray;
+}
+.following1-child333{
+	padding-top:5px;
+	float:left;
+	width:85%;
+	height:5px;
+	border-top:1px solid lightgray;
+	background-color:#F6F6F6;
+	margin-top:8px;
+	margin-left:17px;
+}
+.other-contacts{
+	text-decoration:none;
+	font-family:arial,verdana,sens-serif;
+	font-size:14px;
+	color:#7FDBB6;
+}
+.other-contacts:hover{
+	text-decoration:underline;
+}
+.first-container{
+	width:99%;
+	height:auto;
+	border:1px solid lightgray;
+	//float:left;
+	border-radius:4px;
+	//margin-left:8px;
+	box-shadow:0px 0px 1px 1px lightgray;
+	background-color:white;
 }
 .following1-child1{
 	border-radius:5px;
@@ -291,21 +363,22 @@ body{
 	margin-left:10px;
 	width:55px;
 	height:55px;
-	border:2px solid green;
+	//border:2px solid green;
 	float:left;
+	overflow:hidden;
 }
 .following1-child2{
 	margin-top:3px;
 	margin-left:5px;
-	width:210px;
-	height:60px;
-	border:2px solid green;
+	width:200px;
+	height:65px;
+	//border:2px solid green;
 	float:left;
 }
 .dunya-news{
-	width:54px;
+	width:55px;
 }
-.news1:hover {
+.following1-child2 table:hover .news1{
 	color:#7FDBB6;
 	text-decoration:Underline;
 	transition:0.1s;
@@ -331,19 +404,66 @@ body{
 	cursor:pointer;
 }
 .follow-button{
-	font-family:arial,verdana,sens-serif;
+	cursor:pointer;
+	text-decoration:none;
+	color:gray;
+	padding:6px 12px 6px 12px;
 	border:1px solid lightgray;
-	padding:6px 10px 6px 10px;
-	color:black;
-	font-size:14px;
-	//border:1px solid green;
+	border-radius:4px;
 	margin-left:10px;
 }
 .user-follow{
-	padding-right:5px;
+	color:#7ABDFF;
+}
+.follow-text{
+	font-family:arial,verdana,sens-serif;
+	font-size:15px;
+	font-weight:bold;
 }
 .follow-button:hover{
-	transition:all .15s ease-in-out;
+	color:black;
+	background-color:#F0F0E8;
+	border-bottom:2px solid lightgray;
+}
+.second-container{
+	box-shadow:0px 0px 1px 1px lightgray;
+	width:99%;
+	height:130px;
+	//border:1px solid black;
+	//float:left;
+	border-radius:4px;
+	margin-top:10px;
+}
+.second-container-child1{
+	margin-bottom:15px;
+	color:gray;
+	box-shadow:0px 1px 1px lightgray;
+	border-radius:4px 4px 0px 0px;
+	overflow:hidden;
+	background-color:white;
+	padding:10px;
+	width:92.5%;
+	//border:1px solid red;
+	font-family:arial,verdana,sens-serif;
+	font-size:14px;
+	line-height:20px;
+	word-spacing: 0.3em;
+}
+.second-container-link{
+	text-decoration:none;
+	color:gray;
+	font-size:11px;
+}
+.second-container-link:hover{
+	text-decoration:underline;
+}
+.second-container-link2{
+	text-decoration:none;
+	font-family:arial,verdana,sens-serif;
+	font-size:14px;
 	color:#7FDBB6;
-	box-shadow:0px 1px 1px 1px lightgray;
+	margin-left:20px;
+}
+.second-container-link2:hover{
+	text-decoration:underline;
 }
