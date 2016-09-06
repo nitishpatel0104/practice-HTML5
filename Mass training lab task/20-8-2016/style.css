@@ -216,7 +216,9 @@ body{
 	color:#7FDBB6;
 	text-decoration:underline;
 }
+/*---------------------------CSS for Container2---------------------------------------------------*/
 .main-container-child2{
+	overflow:hidden;
 	width:49%;
 	height:300px;
 	border:1px solid black;
@@ -224,6 +226,52 @@ body{
 	border-radius:4px;
 	margin-left:8px;
 }
+.container-grand-child1{
+	width:100%;
+	height:60px;
+	//border:1px solid red;
+}
+.container-profile{
+	background-image:url("images/zfJ4Cd2Z_normal.jpg");
+	background-repeat:no-repeat;
+	background-repeat:cover;
+	background-size:100%;
+	margin-left:30px;
+	margin-top:10px;
+	width:7%;
+	height:40px;
+	//border:1px solid green;
+	float:left;
+	border-radius:4px;
+}
+.images-camera{
+	background-image:url("images/camera-icon-21.png");
+	background-repeat:no-repeat;
+	background-size:30px;
+	//background-repeat:cover;
+	background-position:right;
+}
+.container-search{
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	width:83%;
+	height:40px;
+	//border:1px solid green;
+}
+.your-message{
+	border:hidden;
+	border:1px solid lightgray;
+	//overflow:hidden;
+	padding-top:5px;
+	padding-right:8px;
+	padding-bottom:5px;
+	padding-left:8px;
+	width:97%;
+	height:27px;
+	outline:0px;
+}
+/*---------------------------CSS for Container3---------------------------------------------------*/
 .main-container-child3{
 	width:24%;
 	height:auto;
