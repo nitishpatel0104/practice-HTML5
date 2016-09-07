@@ -10,7 +10,7 @@ body{
 	z-index:10;
 	width:100%;
 	height:50px;
-	box-shadow:0px 2px 3px gray;
+	box-shadow:0px 1px 2px gray;
 	//border:2px solid red;
 	min-width:1100px;
 }
@@ -65,6 +65,7 @@ body{
 	margin:15px;
 }
 .search-engen{
+	outline:0px;
 	padding-left:10px;
 	width:90%;
 	height:30px;
@@ -79,7 +80,13 @@ body{
 	outline:0px;
 }
 .search-image{
-	
+	background-image:url("images/search-icon-png-18.png");
+	background-repeat:no-repeat;
+	//background-repeat:cover;
+	background-position:97% 50%;
+	background-size:15px;
+	cursor:pointer;
+	outline:0px;
 }
 .profile-images{
 	cursor:pointer;
@@ -114,7 +121,7 @@ body{
 .main-container{
 	position:relative;
 	//border-radius:10px;
-	top:55px;
+	top:60px;
 	width:88%;
 	height:800px;
 	//border:2px solid red;
@@ -134,7 +141,7 @@ body{
 	background-color:white;
 	overflow:hidden;
 	width:99%;
-	height:220px;
+	height:210px;
 	border:1px solid lightgray;
 	//float:left;
 	border-radius:6px;
@@ -171,7 +178,7 @@ body{
 
 .my-profile{
 	border:4px solid white;
-	width:70px;
+	width:80%;
 	border-radius:8px;
 	cursor:pointer;
 }
@@ -218,10 +225,11 @@ body{
 }
 /*---------------------------CSS for Container2---------------------------------------------------*/
 .main-container-child2{
+	box-shadow:0px 0px 1px 1px lightgray;
 	overflow:hidden;
 	width:49%;
-	height:300px;
-	border:1px solid black;
+	height:500px;
+	border:1px solid lightgray;
 	float:left;
 	border-radius:4px;
 	margin-left:8px;
@@ -237,9 +245,9 @@ body{
 	background-repeat:cover;
 	background-size:100%;
 	margin-left:30px;
-	margin-top:10px;
-	width:7%;
-	height:40px;
+	margin-top:11px;
+	width:40px;
+	height:38px;
 	//border:1px solid green;
 	float:left;
 	border-radius:4px;
@@ -249,7 +257,8 @@ body{
 	background-repeat:no-repeat;
 	background-size:30px;
 	//background-repeat:cover;
-	background-position:right;
+	background-position:98% 50%;
+	cursor:pointer;
 }
 .container-search{
 	margin-left:10px;
@@ -260,9 +269,10 @@ body{
 	//border:1px solid green;
 }
 .your-message{
+	border-radius:3px;
 	border:hidden;
 	border:1px solid lightgray;
-	//overflow:hidden;
+	overflow:hidden;
 	padding-top:5px;
 	padding-right:8px;
 	padding-bottom:5px;
@@ -271,6 +281,68 @@ body{
 	height:27px;
 	outline:0px;
 }
+.container-grand-child2{
+	background-color:white;
+	width:100%;
+	height:80px;
+	border-top:1px solid lightgray;
+	//border-bottom:1px solid lightgray;
+}
+.profile-container{
+	margin:10px 5px 0px 15px;
+	border-radius:5px;
+	width:48px;
+	height:48px;
+	border:1px solid green;
+	float:left;
+}
+.info-container{
+	float:left;
+	width:87%;
+	height:77px;
+	border:1px solid green;
+}
+.container-grand-child2:hover{
+	background-color:#F6F6F6;
+	cursor:pointer;
+}
+.user-link{
+	color:gray;
+	font-weight:;
+	font-family:arial,verdana,sens-serif;
+	font-size:12px;
+	border-spacing:0px;
+	cursor:pointer;
+	text-decoration:none;
+}
+.user-name{
+	line-height:30px;
+	color:black;
+	font-weight:bold;
+	font-family:arial,verdana,sens-serif;
+	font-size:16px;
+	cursor:pointer;
+	text-decoration:none;
+}
+.user-name:hover {
+	color:#7FDBB6;
+	text-decoration:underline;
+}
+.view{
+	text-decoration:none;
+	//visibility:hidden;
+	font-family:arial,verdana,sens-serif;
+	font-size:12px;
+	color:gray;
+	padding-right:5px;
+	margin-left:30%;
+}
+.public-icon{
+	text-align:right;
+	opacity:0.4;
+	cursor:pointer;
+}
+
 /*---------------------------CSS for Container3---------------------------------------------------*/
 .main-container-child3{
 	width:24%;
@@ -396,7 +468,7 @@ body{
 	text-decoration:underline;
 }
 .first-container{
-	width:99%;
+	width:281px;
 	height:auto;
 	border:1px solid lightgray;
 	//float:left;
@@ -475,7 +547,7 @@ body{
 }
 .second-container{
 	box-shadow:0px 0px 1px 1px lightgray;
-	width:99%;
+	width:283px;
 	height:130px;
 	//border:1px solid black;
 	//float:left;
