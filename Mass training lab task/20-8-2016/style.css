@@ -228,7 +228,7 @@ body{
 	box-shadow:0px 0px 1px 1px lightgray;
 	overflow:hidden;
 	width:49%;
-	height:500px;
+	height:auto;
 	border:1px solid lightgray;
 	float:left;
 	border-radius:4px;
@@ -284,7 +284,7 @@ body{
 .container-grand-child2{
 	background-color:white;
 	width:100%;
-	height:80px;
+	height:90px;
 	border-top:1px solid lightgray;
 	//border-bottom:1px solid lightgray;
 }
@@ -296,11 +296,16 @@ body{
 	border:1px solid green;
 	float:left;
 }
+.user-image2{
+	background-image:url("images/cu6ohRar_bigger.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
 .info-container{
 	float:left;
 	width:87%;
-	height:77px;
-	border:1px solid green;
+	height:87px;
+	//border:1px solid green;
 }
 .container-grand-child2:hover{
 	background-color:#F6F6F6;
@@ -342,7 +347,45 @@ body{
 	opacity:0.4;
 	cursor:pointer;
 }
-
+.freind-message{
+	font-family:arial,verdana,sens-serif;
+	font-size:14px;
+	font-weight:normal;
+}
+.friend-link{
+	text-decoration:none;
+	color:#7FDBB6;
+}
+.friend-link:hover{
+	text-decoration:underline;
+}
+.reply{
+	color:gray;
+}
+.reply:hover{
+	color:#7FDBB6;
+}
+.retweet{
+	color:gray;
+	margin-left:60px;
+}
+.retweet:hover{
+	color:#7FDBB6;
+}
+.heart{
+	color:gray;
+	margin-left:60px;
+}
+.heart:hover{
+	color:red;
+}
+.ellipsis{
+	color:gray;
+	margin-left:60px;
+}
+.ellipsis:hover{
+	color:#7FDBB6;
+}
 /*---------------------------CSS for Container3---------------------------------------------------*/
 .main-container-child3{
 	width:24%;
