@@ -49,6 +49,7 @@ body{
 	float:right;
 }
 .home-link{
+	text-decoration:none;
 	color:black;
 	padding:10px 12px 10px 12px;
 	font-size:17px;
@@ -59,6 +60,7 @@ body{
 	display:bottom;
 	border-bottom:5px solid #7FDBB6;
 	color:#7FDBB6;
+	
 }
 .twitter{
 	width:30px;
@@ -98,7 +100,9 @@ body{
 	margin-left:10px;
 	float:left;
 }
-
+.link-style{
+	margin-right:5px;
+}
 .tweet-button{
 	font-family:arial,sens-serif;
 	color:white;
