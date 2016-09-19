@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/Slide show.jpg");
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-size: 100% ;
+}
+.parent{
+    background-color: rgba(153,153,153,0.6);
+    width: 550px;
+    height: 570px;
+    border: 2px solid white;
+    margin: 30px auto 0px auto;
+}
