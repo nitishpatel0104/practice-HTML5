@@ -6,16 +6,75 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
+    <div id="background">
+        <header class="header">Order Registration Form</header>
     <div class="parent">
-        <header class="header">User Registration Form</header>'
+        
         <div class="child">
             <form action="">
-               <label>
-                   User Name:
-                   <input type="text" name="name" required="required" placeholder="your name"/>
-               </label>
+               <table class="table1">
+                    <tr>
+                        <td class="text1">User Name:</td>
+                        <td class="inout-box"><input class="input1" type="text" name="name" required="required" placeholder="your name"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Password:</td>
+                        <td class="inout-box"><input class="input1" type="password" name="password" required="required" placeholder="password"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Web URL:</td>
+                        <td class="inout-box"><input class="input4" type="web" name="web" required="required" placeholder="URL"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Address:</td>
+                        <td class="inout-box"><input class="input5" type="web" name="web" required="required" placeholder="URL"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Date of Birth:</td>
+                        <td class="inout-box"> <input class="input3" type="date" name="date" required="required" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">City:</td>
+                        <td class="inout-box">
+                            <select class="input6" name="devices">
+                                <option value="khi">Karachi</option>
+                                <option value="isl">Islamabad</option>
+                                <option value="lhr">Lahore</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text1">State:</td>
+                        <td class="inout-box"><input class="input7" type="text" name="state" required="required" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Zip:</td>
+                        <td class="inout-box"><input class="input8" type="text" name="zip" required="required" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Magazine:</td>
+                        <td class="inout-box">
+                            <select class="input9" multiple="multiple" name="devices">
+                                <option value="khi">Newsweek</option>
+                                <option value="isl">Time</option>
+                                <option value="lhr">TV Guide</option>
+                                <option value="lhr">Fortune</option>
+                            </select>
+                        </td>
+                    </tr>
+            </table><br/>
+            <label class="text2">
+                Additional Comments:<br/>
+                <textarea name="comments" class="input10" cols="30" rows="10" placeholder="your comments"></textarea>
+            </label>
+                    
+                            
+                    
+                    
+               
             </form>
         </div>
+    </div>
     </div>
 </body>
 </html>
