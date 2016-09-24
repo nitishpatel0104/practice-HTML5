@@ -1,104 +1,24 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <style>
-        body{
-            padding:0px;
-            margin:0px;
-            background:#DCDCDC;
-			
-        }
-        .header{
-            width:100%;
-            height:300px;
-            background-color:rgb(43,174,192);
-            box-shadow: 0px 10px 12px gray;
-           
-        }
-        #list li{
-            position: relative;
-            top:180px;
-            margin:2px;
-            padding: 3px;
-            display: inline;
-            font-size:25px;
-            
-            
-        }
-        a{
-            text-decoration: none;
-            color: black;
-            transition: all 1s;
-        }
-        .header #list a:hover{
-            font-size:40px;
-        }
-        #wel{
-            position: relative;
-			left:200px;
-            font-size: 50px;
-            top:110px;
-            text-shadow: 0px 3px 4px rgb(43,23,543);
-            color:rgb(3,652,232);
-           
-        }
-		.image1{
-			position:absolute;
-			top:60px;
-			left:850px;
-			width:400px;
-			height:200px;
-			box-shadow: 0px 0px 0px #87CEEB;
-		}
-		
-		#ref{
-			position:relative;
-			top:100px;
-			height:100px;
-			width:100px;
-		}
-		#css{
-			position:relative;
-			width:150px;
-			height:180px;
-			background-color:#DCDCDC;
-		}
-		#html{
-			position:relative;
-			width:190px;
-			height:180px;
-			background-color:#DCDCDC;
-		}
-		#git{
-			position:relative;
-			width:190px;
-			height:180px;
-			background-color:#DCDCDC;
-		}
-		#img1{
-			position:absolute;
-			left:100px;
-			height:50px;
-			width:20%;
-			top:17px;
-	
-}
-    </style>
+	<title>Sky-Net</title>
+    <link rel="stylesheet" href="listcss.css"/>
 </head>
 <body >
     <div class="header">
-	<font size="7" style="font-family:" ><b>
-		<marquee scrollamount="4" id="img1" style="color:white">SKY NET</marquee></b></font>
-        <div id="wel" ><b>Welcome To The Sky Net</b></div>
-        <ul id="list" >
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Galery</a></li>
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">About-us</a></li>
-          </ul>
-		  <img class="image1" src="images/9.png"/>
+	<div class="logo-1"><b><marquee scrollamount="3" class="logo">SKY NET</marquee></b></div>
+        <div id="wel" ><b><span class="welcome">Welcome</span><br/> <span class="text1">To The Sky Net</span></b></div>
+		<div class="image-box"><img class="image1" src="images/9.png"/></div>
+		<div class="list-box">
+			<ul>
+				<li class="li"><a class="link1" href="#">Home</a></li>
+				<li class="li"><a class="link1" href="#">Galery</a></li>
+				<li class="li"><a class="link1" href="#">Videos</a></li>
+				<li class="li"><a class="link1" href="#">About-us</a></li>
+			</ul>
+		</div>
     </div>
-	
+	<!--<div>
 	<table align="center" id="ref">
 	<tr>
 		<td>
@@ -118,6 +38,6 @@
 		</td>
 	</tr>
 	</table>
-	
+	</div>-->
 </body>
 </html>
