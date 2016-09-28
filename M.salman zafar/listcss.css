@@ -7,6 +7,7 @@ div,p,h1,table,img,ul,li,table,th,td{
 	padding:0px;
     margin:0px;
 }
+/*--------------------------------------Container for header------------------------------------------------------*/
 .header{
 	position: relative;
 	width:100%;
@@ -91,13 +92,14 @@ div,p,h1,table,img,ul,li,table,th,td{
 	color: white;
 	text-shadow: 0px 2px 3px gray;
 	border-bottom: 4px solid white;
-	transition: 0.3s;
+	transition: 0.4s;
 }
+/*-------------------------------------------Container1 for content----------------------------------------------*/
 .container{
 	width:50%;
 	height: auto;
 	/*border: 2px solid blue;*/
-	margin: 20px auto 0px auto;
+	margin: 40px auto 0px auto;
 }
 .link-containe{
 	border-collapse: separate;
@@ -156,4 +158,99 @@ div,p,h1,table,img,ul,li,table,th,td{
 	height: auto;
 	/*border: 2px solid blue;*/
 	padding-bottom: 20px;
+}
+/*-----------------------------------Container for Footer-------------------------------------------------------*/
+.footer-container{
+	width:100%;
+	height:auto;
+	/*border: 2px solid orange;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: gray;
+	margin-top:40px;
+}
+.child-container{
+	padding-top: 8px;;
+	width:96%;
+	height:auto;
+	/*border: 2px solid orange;*/
+	margin: 0px auto 0px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	 background-color: grey;
+}
+.footer1{
+	padding: 15px;
+	width: 25%;
+	height: auto;
+	text-align: justify;
+	border-right: 1px solid white;
+	/*border: 2px solid orange;*/
+}
+.footer-heading{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.6em;
+	text-shadow: 0px 2px 3px gray;
+	border-bottom: 1px solid white;
+	color: white;
+}
+.footer-text1{
+	font-size: 0.9em;
+	color: white;
+}
+.footer2{
+	padding: 15px;
+	width: 25%;
+	height: auto;
+	text-align: justify;
+	border-right: 1px solid white;
+	/*border: 2px solid orange;*/
+}
+.footer2 li{
+	display: block;
+	border-bottom: 1px solid white;
+}
+.footer-link{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	line-height: 25px;
+	text-shadow: 0px 1px 2px gray;
+}
+.footer-link:hover{
+	color:darkblue;
+	transition: 0.3s;
+}
+.footer3{
+	padding: 15px;
+	width: 30%;
+	height: auto;
+	vertical-align: top;
+	text-align: right;
+	/*border: 2px solid orange;*/
+}
+.footer3 a{
+	margin:6px;
+}
+.footer-images1{
+	width:40px;
+	border-radius: 10px;
+}
+.footer-images1:hover{
+	box-shadow: 0px 2px 2px 2px #3366FF;
+}
+.footer-images2{
+	width:40px;
+	border-radius: 10px;
+}
+.footer-images2:hover{
+	box-shadow: 0px 2px 2px 2px darkred;
+}
+.footer-images3{
+	width:40px;
+	border-radius: 10px;
+}
+.footer-images3:hover{
+	box-shadow: 0px 2px 2px 2px skyblue;
 }
