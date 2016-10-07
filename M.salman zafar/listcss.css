@@ -17,6 +17,7 @@ div,p,h1,table,img,ul,li,table,th,td{
 	/*border: 2px solid red;*/
 	z-index: 9;
 	padding-top: 5px;
+	
 }
 .logo-1{
 	width: 17%;
@@ -29,6 +30,7 @@ div,p,h1,table,img,ul,li,table,th,td{
 	font-size: 2.5em;
 	color: darkslateblue;
 	text-shadow: 1px 2px 2px white;
+	
 }
 .header2{
 	width:80%;
@@ -78,6 +80,7 @@ div,p,h1,table,img,ul,li,table,th,td{
 	padding: 10px 0px 10px 0px;
 	margin-left:10px;
 	margin-top: 5px;
+	
 }
 .link1 {
 	text-decoration: none;
@@ -87,12 +90,14 @@ div,p,h1,table,img,ul,li,table,th,td{
 	font-weight: bold;
 	text-shadow: 0px 2px 3px gray;
 	padding: 7px 20px 7px 20px;
+	
 }
 .link1:hover{
 	color: white;
 	text-shadow: 0px 2px 3px gray;
 	border-bottom: 4px solid white;
 	transition: 0.4s;
+	
 }
 /*-------------------------------------------Container1 for content----------------------------------------------*/
 .container{

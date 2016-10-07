@@ -67,12 +67,21 @@ div,p,h1,table,img,ul,li,table,th,td{
 	transition: 0.4s;
 }
 /*-------------------------------------------Container1 for content----------------------------------------------*/
-.container{
-	width:30%;
+.container1{
+	width:40%;
 	height: auto;
 	/*border: 2px solid blue;*/
 	margin-left: 40px;
     margin-top: 40px;
+	float: left;
+}
+.container2{
+	width:40%;
+	height: auto;
+	/*border: 2px solid blue;*/
+	margin-left: 40px;
+    margin-top: 40px;
+	float: left;
 }
 .pro-heading{
     text-align: center;
@@ -83,79 +92,79 @@ div,p,h1,table,img,ul,li,table,th,td{
 }
 .link-containe{
 	border-collapse: separate;
-    border-spacing: 20px 10px;
+    border-spacing: 10px 20px;
 }
 .image-refrance11{
-	width:45%;
-	vertical-align: left;
+	width:40%;
+	vertical-align: middle;
 	padding: 10px;
 	box-shadow: 0px 1px 1px 1px gray;
 	border-radius: 8px;
 }
 .image-refrance11:hover{
-	box-shadow: 0px 3px 3px 3px #E29E6D;
+	box-shadow: 0px 5px 5px 4px #E29E6D;
 	transition: 0.3s;
 }
 .image-refrance12{
-	width:45%;
-	vertical-align: left;
+	width:40%;
+	vertical-align: middle;
 	padding: 10px;
 	box-shadow: 0px 1px 1px 1px gray;
 	border-radius: 8px;
 }
 .image-refrance12:hover{
-	box-shadow: 0px 3px 3px 3px lightskyblue;
+	box-shadow: 0px 5px 5px 4px lightskyblue;
 	transition: 0.3s;
 }
 .image-refrance13{
 	width:45%;
-	vertical-align: left;
+	vertical-align: middle;
 	padding: 10px;
 	box-shadow: 0px 1px 1px 1px gray;
 	border-radius: 8px;
 }
 .image-refrance13:hover{
-	box-shadow: 0px 3px 3px 3px gray;
+	box-shadow: 0px 5px 5px 4px gray;
 	transition: 0.3s;
 }
 .image-refrance14{
 	width:45%;
-	vertical-align: left;
+	vertical-align: middle;
 	padding: 10px;
 	box-shadow: 0px 1px 1px 1px gray;
 	border-radius: 8px;
 }
 .image-refrance14:hover{
-	box-shadow: 0px 3px 3px 3px gray;
+	box-shadow: 0px 5px 5px 4px lightsalmon;
 	transition: 0.3s;
 }
 .refrance11{
-	text-align: left;
-	width:18%;
+	text-align: center;
+	width:50%;
 	height: auto;
 	/*border: 2px solid blue;*/
 	padding-bottom: 20px;
     padding-left: 20px;
 }
 .refrance12{
-	text-align: left;
-	width:18%;
+	text-align: center;
+	width:50%;
 	height: auto;
 	/*border: 2px solid blue;*/
 	padding-bottom: 20px;
     padding-left: 20px;
 }
 .refrance13{
-	text-align: left;
-	width:18%;
+	text-align: center;
+	width:50%;
 	height: auto;
 	/*border: 2px solid blue;*/
 	padding-bottom: 20px;
     padding-left: 20px;
 }
 .refrance14{
-	text-align: left;
-	width:18%;
+	text-align: center;
+	width:50%;
 	height: auto;
 	/*border: 2px solid blue;*/
 	padding-bottom: 20px;
