@@ -1,7 +1,7 @@
 body{
 	padding:0px;
 	margin:0px;
-	background:#DCDCDC;
+	background:-webkit-linear-gradient(lightcyan,lightgray);
 }
 div,p,h1,table,img,ul,li,table,th,td{
 	padding:0px;
@@ -102,7 +102,7 @@ div,p,h1,table,img,ul,li,table,th,td{
 	border-radius: 8px;
 }
 .image-refrance11:hover{
-	box-shadow: 0px 5px 5px 4px #E29E6D;
+	box-shadow: 0px 5px 5px 4px lightsteelblue;
 	transition: 0.3s;
 }
 .image-refrance12{
@@ -138,6 +138,17 @@ div,p,h1,table,img,ul,li,table,th,td{
 	box-shadow: 0px 5px 5px 4px lightsalmon;
 	transition: 0.3s;
 }
+.image-refrance15{
+	width:45%;
+	vertical-align: middle;
+	padding: 10px;
+	box-shadow: 0px 1px 1px 1px gray;
+	border-radius: 8px;
+}
+.image-refrance15:hover{
+	box-shadow: 0px 5px 5px 4px #E29E6D;
+	transition: 0.3s;
+}
 .refrance11{
 	text-align: center;
 	width:50%;
@@ -163,6 +174,14 @@ div,p,h1,table,img,ul,li,table,th,td{
     padding-left: 20px;
 }
 .refrance14{
+	text-align: center;
+	width:50%;
+	height: auto;
+	/*border: 2px solid blue;*/
+	padding-bottom: 20px;
+    padding-left: 20px;
+}
+.refrance15{
 	text-align: center;
 	width:50%;
 	height: auto;

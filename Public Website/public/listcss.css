@@ -1,7 +1,7 @@
 body{
 	padding:0px;
 	margin:0px;
-	background:#DCDCDC;
+	background:-webkit-linear-gradient(lightgray,lightcyan);
 }
 div,p,h1,table,img,ul,li,table,th,td{
 	padding:0px;
