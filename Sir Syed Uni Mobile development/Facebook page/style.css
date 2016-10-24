@@ -75,17 +75,19 @@ td > a:hover{
     transition: 0.3s;
 }
 .login-button{
-    padding:3px 6px 3px 6px;
+    padding:5px 7px 5px 7px;
     background-color: #6666B9;
     border: hidden;
     outline: 0px; 
     color: white;
     border: 1px solid #5959B4;
+    border-radius: 3px;
 }
 .login-button:hover{
     background-color: #3b5998;
     transition: 0.3s;
     cursor: pointer;
+    border: 1px solid darkblue;
 }
 /*---------------------------------Container-1---------------------------------------------------*/
 .container-1{
@@ -104,4 +106,56 @@ td > a:hover{
     height: 530px;
     border: 1px solid green;
     float: right;
+    min-width: 40%;
+}
+.main-images{
+    width: 50%;
+    margin-left: 38%;
+    margin-top: 0px;
+}
+.first-name{
+    width: 175px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 7px;
+    outline: 0px;
+    border: hidden;
+    border: 1px solid #BEBEBE;
+    margin-left: 50px;
+    font-size: 1.1em;
+}
+.last-name{
+    width: 175px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 7px;
+    outline: 0px;
+    border: hidden;
+    border: 1px solid #BEBEBE;
+    margin-left: 8px;
+    font-size: 1.1em;
+}
+.mobile-email{
+    width: 388px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 7px;
+    outline: 0px;
+    border: hidden;
+    border: 1px solid #BEBEBE;
+    margin-left: 50px;
+    font-size: 1.1em;
+    margin-top: 9px;
+}
+.new-password{
+    width: 388px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 7px;
+    outline: 0px;
+    border: hidden;
+    border: 1px solid #BEBEBE;
+    margin-left: 50px;
+    font-size: 1.1em;
+    margin-top: 9px;
 }
