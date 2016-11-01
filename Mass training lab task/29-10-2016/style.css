@@ -3,16 +3,17 @@ body{
     padding: 0px;
 }
 .background-effect{
-    position: relative;
+    position: fixed;
     top: 0px;
     width: 100%;
-    height: 470px;
+    height: 580px;
     padding-top: 80px;
     background-image: url(images/Vegetable-Mutton-Biryani-Recipe-by-Shireen-Anwar.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 560px;
+    background-size: 100% 670px;
     filter: blur(3px);
     z-index: -1;
+    //border: 1px solid red;
 }
 
 /*--------------------------------------------------Header-container-------------------------------*/
@@ -27,7 +28,7 @@ body{
 }
 .logo{
     position: relative;
-    width: 18%;
+    width: 230px;
     height: 120px;
     /*border: 2px solid blue;*/
     background-color: dimgray;
@@ -38,20 +39,21 @@ body{
     margin-left: 100px;
     float: left;
     border-radius:5px;
+    min-width: 200px;
 }
 .page-list{
-    position: relative;
-    width: 73%;
-    height: 59px;
+    width: 70%;
+    height: 52px;
     //border: 2px solid blue;
-    float: right;
+    float: left;
+    text-align: center;
 }
 .list{
     display: inline-block;
 }
 .page-list a{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 130%;
     margin-right: 30px;
     text-decoration: none;
     color: white;
@@ -62,19 +64,54 @@ body{
 }
 .page-list a:hover{
     background-color: orangered;
-    transition:0.3s;
+    transition:0.6s;
 }
+/*.page-list ul li a:hover, 
+.page-list ul li a:active, 
+.page-list ul li a:link, 
+.page-list ul li a:visited{
+    background-color: orangered;
+}*/
 /*--------------------------------------------------content-container-------------------------------*/
 .container1{
     position: relative;
-    width: 100%;
-    height: 400px;
+    top: 80px;
+    width: 400px;
+    height: 450px;
     margin: 0px auto 0px auto;
-    border: 2px solid gray;
-    border-radius: 5px;
+    border-radius: 8px;
+    //border: 2px solid blue;
+    background-color: rgba(0,0,0,0.6);
 }
-
-
+.container1 > button{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    border: hidden;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;  
+    outline: 0px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.container1 > button:hover{
+    background-color: darkorange;
+    transition: 0.6s;
+    cursor: pointer;
+    color: white;
+}
+.container1 > h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: ;
+    margin-left: 40px;
+}
+.container1 > h2 >span{
+    color: lightseagreen;
+}
 
 
 
