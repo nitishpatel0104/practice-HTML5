@@ -42,11 +42,13 @@ body{
     min-width: 200px;
 }
 .page-list{
+    position: fixed;
+    left: 350px;
     width: 70%;
     height: 52px;
-    //border: 2px solid blue;
+    /*border: 2px solid blue;*/
     float: left;
-    text-align: center;
+    text-align: left;
 }
 .list{
     display: inline-block;
@@ -78,7 +80,7 @@ body{
     top: 80px;
     width: 400px;
     height: 450px;
-    margin: 0px auto 0px auto;
+    margin-left: 55%;
     border-radius: 8px;
     //border: 2px solid blue;
     background-color: rgba(0,0,0,0.6);
