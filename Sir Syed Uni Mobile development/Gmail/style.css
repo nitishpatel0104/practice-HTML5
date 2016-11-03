@@ -73,7 +73,7 @@ body{
     position: relative;
     top:0px;
     left: 12.3%;
-    width: 44%;
+    width: 590px;
     height: 830px;
     border: 1px solid red;
     float: left;
@@ -147,25 +147,140 @@ body{
 
 /*---------------------------------Form-Box---------------------------------------------------*/
 .form-box{
-    width: 27.5%;
+    width: 320px;
     height: 830px;
     border: 1px solid red;
     float: right;
-    margin-right: 14.5%;
+    margin-right: 14.7%;
     background-color: rgba(2,2,2,0.06);
     border-radius: 3px;
+    padding: 20px 16px 20px 27px;
+    min-width: 320px;
 }
 .label1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
 }
-.name{
+.name-feild{
     width: 130px;
-    padding: 6px 8px 6px 8px;
+    padding: 7px 8px 7px 8px;
     border: hidden;
     border: 1px solid lightgray;
     border-radius: 3px;
-    
+    margin-right: 5px;
+    margin-bottom: 18px;
+    margin-top: 4px;
 }
-.name:hover{
+.name-feild:hover{
+    box-shadow: inset 0 0 1px #777777;
+}
+.name-feild2{
+    width: 130px;
+    padding: 7px 8px 7px 8px;
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.name-feild2:hover{
+    box-shadow: inset 0 0 1px #777777;
+}
+.email-feild{
+    width: 286px;
+    padding: 7px 8px 7px 8px;
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.email-feild::-webkit-input-placeholder{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email-feild:hover{
+    box-shadow: inset 0 0 1px #777777;
+}
+.password-feild{
+    width: 286px;
+    padding: 7px 8px 7px 8px;
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.password-feild:hover{
+    box-shadow: inset 0 0 1px #777777;
+}
+.month{
+    width: 145px;
+    padding: 7px 8px 7px 8px;
+    background-color: rgba(2,2,2,0.01);
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    outline: 0px;
+}
+.month:hover{
+    border: 1px solid rgba(2,2,2,0.2);
+    background-color: rgba(2,2,2,0.02);
+    box-shadow: 0px 1px 3px gray;
+    transition:0.5s;
+}
+.day{
+    width: 40px;
+    padding: 7px 8px 7px 8px;
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.day:hover{
+    box-shadow: inset 0 0 1px #777777;
+}
+.year{
+    width: 75px;
+    padding: 7px 8px 7px 8px;
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.year:hover{
+    box-shadow: inset 0 0 1px #777777;
+}
+.gender{
+   width: 303px;
+    padding: 5px 4px 5px 4px;
+    background-color: rgba(2,2,2,0.01);
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    outline: 0px;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.gender:hover{
+    border: 1px solid rgba(2,2,2,0.2);
+    background-color: rgba(2,2,2,0.02);
+    box-shadow: 0px 1px 3px gray;
+    transition:0.5s;
+}
+.mobile-feild{
+    width: 286px;
+    padding: 7px 8px 7px 8px;
+    border: hidden;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.mobile-feild:hover{
     box-shadow: inset 0 0 1px #777777;
 }
