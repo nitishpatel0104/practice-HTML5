@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 100%;
+    height: 300px;
+    /*background-color: lightseagreen;*/
+}
+.box-child{
+    height: 300px;
+    background-image: url(images/Aqua_Power_HD_2016-01-07-21-53-31.png);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    /*border: 2px solid red;*/
+    
+}
+.header{
+    width: 50%;
+    height: auto;
+    border: 2px solid red;
+    background-color: lightseagreen;
+}
+.link{
+     height: auto;
+     padding: 5px 10px 5px 10px;
+}
+.link a{
+    text-align: center;
+    padding: 6px 19px 6px 19px;
+    border: 1px solid blue;
+    background-color: lightseagreen;
+    color: black;
+}
+.link a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: lightskyblue;
+}
