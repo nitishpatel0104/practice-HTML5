@@ -16,3 +16,8 @@ function addnewList(){
 
 var  newAction = document.getElementById("butn");
 newAction.onclick = addnewList;
+
+function focus(){
+    var a = "Writing";
+    document.getElementById("info").innerHTML=a;
+}
