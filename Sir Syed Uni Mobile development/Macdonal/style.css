@@ -1,13 +1,16 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: gray;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
 .header{
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    box-shadow: 0px 5px 8px dimgray;
     width: 100%;
     height: 55px;
     background-color: rgb(190, 16, 17);
@@ -24,11 +27,11 @@ body{
     margin-left: 90px;
 }
 .header-child2{
-    width: 77%;
+    width: 76.3%;
     height: auto;
     /*border: 2px solid blue;*/
     float: right;
-    
+    margin-top: -10px;
 }
 .list-box ul{
     list-style: none;
@@ -38,9 +41,10 @@ body{
     /*border: 1px solid yellow;*/
     height: 54.5px;
     line-height: 54.5px;
-    width: 70px;
+    width: 65px;
     float: left;
-    color: white;
+    color: rgb(190, 16, 17);
+    background-color: white;
 }
 .list-box ul .list-1:hover{
     color: rgb(190, 16, 17);
@@ -59,7 +63,7 @@ body{
     width: 100px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.63em;
 }
 .list-box ul .list-3{
     text-align: center;
@@ -69,7 +73,7 @@ body{
     width: 180px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.63em;
 }
 .list-box ul .list-4{
     text-align: center;
@@ -79,7 +83,7 @@ body{
     width: 125px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.63em;
 }
 .list-box ul .list-5{
     text-align: center;
@@ -89,7 +93,7 @@ body{
     width: 105px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.63em;
 }
 .list-box ul .list-6{
     text-align: center;
@@ -99,7 +103,7 @@ body{
     width: 150px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.63em;
 }
 .list-box ul .list-7{
     text-align: left;
@@ -109,7 +113,7 @@ body{
     width: 190px;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.63em;
 }
 .list-box ul li a{
     text-decoration: none;
@@ -207,4 +211,149 @@ body{
     margin-bottom: -17px;
     padding-left: 33px;
     padding-right: 25px;
+}
+/*--------------------for Play option------------------------------------------*/
+.list-box ul .list-5:hover > ul{
+    display: block;
+}
+.list-5 ul li a {
+    line-height: 50px;
+}
+.list-5 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-5-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-5-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Careers option------------------------------------------*/
+.list-box ul .list-6:hover > ul{
+    display: block;
+}
+.list-6 ul li a {
+    line-height: 50px;
+}
+.list-6 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-6-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-6-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Pic-Container------------------------------------------*/
+.pic-container{
+    position: relative;
+    top: 55px;
+    width: 100%;
+    height: 607px;
+    background-image: url(images/Happy-Meal-Trolls.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 640px;
+}
+.mid-conrtainer {
+    width: 790px;
+    height: 158px;
+    /*border: 1px solid red;*/
+    margin-top: -103px ;
+    margin-left: 22%;
+    position: relative;
+    top: 0px; 
+}
+.image1{
+    width:250px;
+    height: 158px;
+    /*border: 1px solid blue;*/
+    background-image: url(images/Share-Box-Chicken-n-fish-Widget.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 158px;
+    display: inline-block;
+}
+.image2{
+    width:250px;
+    height: 158px;
+    /*border: 1px solid blue;*/
+    background-image: url(images/Open-door.png);
+    background-repeat: no-repeat;
+    background-size: 100% 158px;
+    display: inline-block;
+
+}
+.image3{
+    width:250px;
+    height: 158px;
+    /*border: 1px solid blue;*/
+    background-image: url(images/Happy-Meal-Trolls-Widget.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 158px;
+    display: inline-block;
+}
+.pic2-container{
+    width: 100%;
+    height: 45px;
+    background-image: url(images/widget-back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 45px;
+    position: relative;
+}
+/*--------------------for Pic-Container2------------------------------------------*/
+.tamato{
+    width: 100%;
+    height: 375px;
+    /*border: 2px solid red;*/
+}
+.tamato-img1{
+    background-image: url(images/crunchy.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90px;
+    width:640px;
+    height: 90px;
+    /*border: 1px solid red;*/
+    margin-left: 14%;
+    margin-top: 35px;
+    position: relative;
+}
+.tamato-text{
+    width:405px;
+    height: 120px;
+    /*border: 1px solid red;*/
+    margin-left: 14%;
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    top:-125px;
+}
+.tamato-img2{
+     background-image: url(images/vegetables.png);
+    background-repeat: no-repeat;
+    background-size: 100% 260px;
+    width:545px;
+    height: 260px;
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin-top: -30px;
+    position: relative;
+    margin-left: -5px;
+    
 }
