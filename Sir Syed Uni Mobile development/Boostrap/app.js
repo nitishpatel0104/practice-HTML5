@@ -24,7 +24,22 @@
 // alert(a); 
 // alert(b); 
 
-var a = 5;
-var c = ++a + a++;
-alert(a);
-alert(c); 
+// var a = 5;
+// var c = ++a + a++;
+// alert(a);
+// alert(c); 
+
+function userDetails(){
+    var a = document.getElementById("userInput").value;
+    var b = document.getElementById("userPassword").value;
+    if(a == "" || a == " "){
+        alert("Please write your email");
+    }
+    else if(b == "" || b == " "){
+        alert("Please write your Password");
+    }
+    document.getElementById("useremail").innerHTML=a;
+    document.getElementById("userpassword").innerHTML=b;
+}
+document.getElementById("useremail").style.color="blue";
+document.getElementById("userpassword").style.color="red";

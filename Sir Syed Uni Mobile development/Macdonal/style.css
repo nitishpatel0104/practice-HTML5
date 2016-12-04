@@ -277,7 +277,7 @@ body{
     height: 158px;
     /*border: 1px solid red;*/
     margin-top: -103px ;
-    margin-left: 22%;
+    margin-left: 23%;
     position: relative;
     top: 0px; 
 }
@@ -330,7 +330,7 @@ body{
     width:640px;
     height: 90px;
     /*border: 1px solid red;*/
-    margin-left: 14%;
+    margin-left: 15%;
     margin-top: 35px;
     position: relative;
 }
@@ -338,7 +338,7 @@ body{
     width:405px;
     height: 120px;
     /*border: 1px solid red;*/
-    margin-left: 14%;
+    margin-left: 15%;
     padding-top: 10px;
     display: inline-block;
     position: relative;
@@ -356,4 +356,64 @@ body{
     position: relative;
     margin-left: -5px;
     
+}
+/*--------------------for Footer------------------------------------------*/
+.footer{
+    width: 100%;
+    height: 135px;
+    background-color: rgb(190, 16, 17);
+}
+.footer-child1{
+    width: 325px;
+    height: 134px;
+    line-height: 75px;
+    border:1px solid red;
+     /*display: inline-block;*/
+     float: left;
+     text-align: center;
+     color: white;
+}
+.footer-child2{
+    width: 700px;
+    height: 134px;
+    border:1px solid red; 
+    float: left;
+    padding-left: 65px;
+}
+.footer-child2 ul{
+    list-style: none;
+}
+.footer-child2 ul li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-left: 1px solid white;
+}
+#faq{
+    display: inline-block;
+    margin-top: 38px;
+    margin-left: 10px;
+    border-left: hidden; 
+}
+.footer-child2 ul li a{
+    color: white;
+    padding: 12px 12px 12px 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.footer-child2 ul li a:hover{
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+}
+.footer-child3{
+    width: 160px;
+    height: 134px;
+    border:1px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-family: sans-serif;
+    font-size: 0.9em;
 }
