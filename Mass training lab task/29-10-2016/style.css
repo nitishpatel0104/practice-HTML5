@@ -3,77 +3,56 @@ body{
     padding: 0px;
 }
 .background-effect{
-    position: fixed;
+    position: relative;
     top: 0px;
     width: 100%;
-    height: 580px;
-    padding-top: 80px;
-    background-image: url(images/Vegetable-Mutton-Biryani-Recipe-by-Shireen-Anwar.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 670px;
-    filter: blur(3px);
+    height: 650px;
+    /*padding-top: 80px;*/
+    filter: blur(2px);
     z-index: -1;
-    //border: 1px solid red;
+    /*border: 1px solid red;*/
 }
-
+.background-effect img{
+    width: 100%;
+    height: 650px;
+    
+}
 /*--------------------------------------------------Header-container-------------------------------*/
 .header-box{
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 55px;
-    background-color: dimgray;
-    z-index: 2;
-    box-shadow: 0px 5px 18px gray;
+    height: auto;
+    background:darkred;
+    z-index: 9;
+    box-shadow: 0px 3px 18px firebrick;
 }
 .logo{
     position: relative;
     width: 230px;
     height: 120px;
     /*border: 2px solid blue;*/
-    background-color: dimgray;
+    background: darkred;
     background-image: url(images/logo.png);
     background-repeat: no-repeat;
     background-size: 95% 100px;
     background-position: 5px 5px;
     margin-left: 100px;
     float: left;
-    border-radius:5px;
-    min-width: 200px;
+    border-radius:3px;
 }
 .page-list{
-    position: fixed;
-    left: 350px;
-    width: 70%;
-    height: 52px;
-    /*border: 2px solid blue;*/
-    float: left;
-    text-align: left;
-}
-.list{
+    border: 2px solid blue;
+    width: 65%;
+    height: auto;
     display: inline-block;
 }
-.page-list a{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 130%;
-    margin-right: 30px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    padding: 16px 12px 16px 12px;
-    //border: 1px solid gray;
-    font-weight: bold;
+.page-list ul{
+    list-style: none;
 }
-.page-list a:hover{
-    background-color: orangered;
-    transition:0.6s;
+.page-list ul li {
+    display: inline-block;
 }
-/*.page-list ul li a:hover, 
-.page-list ul li a:active, 
-.page-list ul li a:link, 
-.page-list ul li a:visited{
-    background-color: orangered;
-}*/
 /*--------------------------------------------------content-container-------------------------------*/
 .container1{
     position: relative;
