@@ -2,6 +2,102 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.lesson ol{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.lab-task{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    margin: 0px auto;
+    position: relative;
+    top: 50px;
+    background: -webkit-linear-gradient(lightblue,lightcyan);
+}
+.heading{
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+    text-align: center;
+    padding-top: 18px;
+    /*padding-bottom: 10px;*/
+    line-height: 50px;
+}
+.heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6em;
+    text-shadow: 1px 3px 5px gray;
+}
+.heading h3{
+    /*margin-top: 20px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    text-shadow: 1px 3px 5px lightgray;
+    color: darkblue;
+}
+.task{
+    border: 2px solid blue;
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+}
+.question{
+    border: 1px solid red;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 20px;
+}
+.question span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.question .q{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: black;
+    margin-left: 1%;
+    font-weight: normal;
+}
+.answer{
+    border: 1px solid red;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+.answer span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: blue;
+    margin-left: 1%;
+    font-weight: bold;
+}
+.answer .ans{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: blue;
+    font-weight: normal;
+    margin-left: 3%;
+}
+.answer .ans1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: blue;
+    font-weight: normal;
+    margin-left: 5.7%;
+}
+.question ol{
     list-style-type: lower-alpha;
+    font-size: 0.9em;
+    margin-left: 8%;
 }

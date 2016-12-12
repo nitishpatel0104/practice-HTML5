@@ -43,23 +43,24 @@
 // // concatinate 4 question
 // alert("My Name is " + userName + myName + "\n" + "I am " + studentAge + "\n" + "I study in " + uni + "\n" + course + " Classes");
 
-// disply message in browser through JavaScript
-var browser = "Yes! I can write HTML content through JavaScript" ;
-document.write("<h1>"+browser+"</h2>");
+// // disply message in browser through JavaScript
+// var browser = "Yes! I can write HTML content through JavaScript" ;
+// document.write("<h1>"+browser+"</h2>");
 
-// Visited site
-var visi = "you have Visited this site 21 time";
-alert(visi);
+// // Visited site
+// var visi = "you have Visited this site 21 time";
+// alert(visi);
 
-var year= 1993;
-var myBirth = "My birth yesr is ";
-var variable = "Data type of my declared variable is number";
-document.write("<h2>"+myBirth + year + "<br/>" + variable + "</h2>"); 
+// var year= 1993;
+// var myBirth = "My birth yesr is ";
+// var variable = "Data type of my declared variable is number";
+// document.write("<h2>"+myBirth + year + "<br/>" + variable + "</h2>"); 
 
-// Online Shopping
-var website = "www.WowDress.pk";
-var visitor = "Bilal Kiyani ";
-var order = "Ordered ";
-var product = "3 T-Shirt(s) on ";
+// // Online Shopping
+// var website = "www.WowDress.pk";
+// var visitor = "Bilal Kiyani ";
+// var order = "Ordered ";
+// var product = "3 T-Shirt(s) on ";
 
-document.write("<h2>" + visitor + order + product + website + "</h2>");
+// document.write("<h2>" + visitor + order + product + website + "</h2>");
+
