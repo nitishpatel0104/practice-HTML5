@@ -37,3 +37,17 @@ form #email{
     padding: 6px;
     color: white;
 }
+form #zip{
+    width: 200px;
+    height: 13px;
+    font-size: 1em;
+    padding: 6px;
+    color: white;
+}
+form #city{
+    width: 200px;
+    height: 13px;
+    font-size: 1em;
+    padding: 6px;
+    color: black;
+}
