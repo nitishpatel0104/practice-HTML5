@@ -48,6 +48,30 @@
         <input type="text" id="city"/>
     </form>
 
+    <h3>Reading and setting paragraph text</h3>
+    <p id="slowLoris">
+        Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
+        <a href="javascript:void(0);" onClick="expandLoris();"><em>Click for more.</em></a>
+    </p>
+    <h3>List appear on the page usnig Click button.</h3>
+    <div id="nameList">   
+        <!--<ol>
+           <li>Salman</li>
+           <li>Waseem</li>
+           <li>Bilal</li>
+           <li>Hussam</li>
+        </ol>-->
+    </div>
+    <input id="inptButn" type="button" value="Click Me" onclick="nameList()"/>
+
+    <h3>Manipulating images and text and hidden onClick</h3>
+    <a href="JavaScript:void(0)" id="hide" onClick="makeInvisible()">
+        <img width="370"  height="250" src="images/1.png"/>
+    </a>
+    <h3>Manipulating images and text and Rotate onClick</h3>
+    <div href="JavaScript:void(0)" id="rot" onClick="rotateImg()">
+        <img width="300"  height="200" src="images/2.png"/>
+    </div>
 
 
 <script src="app.js"></script>

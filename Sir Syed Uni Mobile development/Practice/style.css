@@ -51,3 +51,19 @@ form #city{
     padding: 6px;
     color: black;
 }
+.hidden {
+    display: none;
+}
+#rot{
+    position: relative;
+    width: 300px;
+    height: auto;
+    top: 20px;
+    cursor: pointer;
+}
+.rotate {
+    -ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(6deg); 
+    transform: rotate(7deg);
+    transition: 1.5s;
+}

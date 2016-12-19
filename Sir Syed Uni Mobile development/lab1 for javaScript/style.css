@@ -9,7 +9,7 @@ body{
 .lab-task{
     width: 100%;
     height: auto;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     margin: 0px auto;
     position: relative;
     /*top: 50px;*/
@@ -18,7 +18,7 @@ body{
 .heading{
     width: 100%;
     height: auto;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     text-align: center;
     padding-top: 18px;
     /*padding-bottom: 10px;*/
@@ -33,17 +33,17 @@ body{
     /*margin-top: 20px;*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6em;
-    text-shadow: 1px 3px 5px lightgray;
+    text-shadow: 0px 2px 4px dodgerblue;
     color: darkblue;
 }
 .task{
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     width: 85%;
     height: auto;
     margin: 0px auto;
 }
 .question{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0px auto;
     width: 100%;
     height: auto;
@@ -66,7 +66,7 @@ body{
     font-weight: normal;
 }
 .answer{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0px auto;
     width: 100%;
     height: auto;

@@ -69,10 +69,21 @@ function question8(){
     document.getElementById("display").innerHTML= "<h1>"+browser+"</h2>";
 }
 
+// display Age
+function question11(){
+    var age;
+    age = 20;
+    alert("I am "+ age +" years old");
+}
 
-// // Visited site
-// var visi = "you have Visited this site 21 time";
-// alert(visi);
+ // Visited site
+ var count = 0;
+ function question12(){
+     count++ ;
+     var visi = "You have Visited this site ";
+        alert(visi + count + " time..!");
+ }
+
 
 // var year= 1993;
 // var myBirth = "My birth yesr is ";
