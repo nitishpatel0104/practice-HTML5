@@ -66,7 +66,7 @@ function question8(){
  function question10(){
     var browser = "Yes! I can write HTML content through JavaScript" ;
     //document.write("<h1>"+browser+"</h2>");
-    document.getElementById("display").innerHTML= "<h1>"+browser+"</h2>";
+    document.getElementById("display").innerHTML= "<h1>"+browser+"</h1>";
 }
 
 // display Age
@@ -82,6 +82,14 @@ function question11(){
      count++ ;
      var visi = "You have Visited this site ";
         alert(visi + count + " time..!");
+ }
+
+ //display browser
+  function question13(){
+     var birthYear;
+     birthYear = "My Birth year is 1993";
+     var messageYear = "Data type of my declared variable is number";
+     document.getElementById("year").innerHTML= "<h2>"+ birthYear + "<br/>" + messageYear + "<h2>";
  }
 
 
