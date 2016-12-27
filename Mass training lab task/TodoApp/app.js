@@ -1,8 +1,17 @@
 var newArray=[];
 
-
+window.onload= function(){
+    document.getElementById("todoInput");
+}
+//     var images = document.createElement("span");
+//     images.innerHTML="<i class='fa fa-trash-o' aria-hidden='true'></i>";
+//     console.log(images);
+//     listItem.setAttribute("image-id");
 function addnewList(){
     var listItem = document.createElement("li");
+    
+
+    console.log(images);
     var inputValue = document.getElementById("todoInput").value;
     listItem.innerText = inputValue;
     newArray.push(listItem);
