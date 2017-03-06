@@ -12,8 +12,8 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <!--<script src="dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">-->
+    <script src="dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
 </head>
 <body>
     <div class="container-flex navbar header-box col-md-12 text-center">
@@ -83,7 +83,7 @@
                         </p>
                         <div class="col-md-1 ans">A: </div>
                         <div class="col-md-10 ans">var message;<br/> message = "Hello World";<br/> alert(message); </div>
-                        <div class="col-md-12 col-md-offset-1"><button class="btn btn-success">Click Me</button></div>
+                        <!--<div class="col-md-12 col-md-offset-1"><button class="btn btn-success">Click Me</button></div>-->
                     </blockquote>
                 </div>
             </div>
@@ -99,15 +99,9 @@
                             Write a script to save student’s bio data in JS variables and show the data in alert boxes.
                         </p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">
-                            var userName = " Salman Zafar";<br/>
-                            alert(userName);<br/>
-                            var studentAge = "20 years old";<br/>
-                            alert(studentAge);<br/>
-                            var uni = "SSUET";<br/>
-                            alert(uni);<br/>
-                            var course="Mobile & Cloud Computing - Module A";<br/>
-                            alert(course); 
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="bioData()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="bioCode()">Code</button>
                         </div>
                     </blockquote>
                 </div>
@@ -120,14 +114,19 @@
             <div class="row">
                 <div class="col-md-12 box-1">
                     <blockquote>
-                        <p>Write a script to display the following alert using one JS variable:</p>
+                        <p>Write a script to display the following alert using one JS variable:
+                            <ol>
+                                <li>PIZZA</li>
+                                <li>PIZZ</li>
+                                <li>PIZ</li>
+                                <li>PI</li>
+                                <li>P</li>
+                            </ol>
+                        </p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var o = "PIZZA";<br/>
-                                                    var r1 = "PIZZ";<br/>
-                                                    var d = "PIZ";<br/>
-                                                    var e = "PI";<br/>
-                                                    var r2 = "P";<br/>
-                                                    alert(o + "\n" + r1 + "\n" + d + "\n" + e + "\n" +r2);<br/>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="pizza()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="pizzaCode()">Code</button>
                         </div>
                     </blockquote>
                 </div>
@@ -144,11 +143,13 @@
                             just program your fortune yourself?
                             Store the following into variables: number of children,
                             partner’s name, geographic location, and job title.</p>
+                        <div class="col-md-12 col-md-offset-1">
+                            <span class="ans">Hint: </span>You will be a Software Developer in USA, Married to ABC width 2 kids. 
+                        </div>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var dev = "You will be a Software Developer";<br/>
-                                                    var loc = "in USA, ";<br/>
-                                                    var mer = "Married to ABC width 2 kids";<br/>
-                                                    alert(dev + loc + mer);<br/>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="job()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="jobCode()">Code</button>
                         </div>
                     </blockquote>
                 </div>
@@ -165,9 +166,9 @@
                             represents your Email Address (e.g. abc@xyz.com). Show
                             the below mentioned message in an alert box.</p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var message1 = "My Eamil Address is ";<br/>
-                                                    var email = "Salman.zafar292@gmail.com";<br/>
-                                                    alert(message1 + email);<br/>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="email()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="emailCode()">Code</button>
                         </div>
                     </blockquote>
                 </div>
@@ -184,9 +185,9 @@
                             smarter way to learn JavaScript”. Display the following
                             message in an alert box:</p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var message2 = "I am trying to learn from the book";<br/>
-                                                    var book = "'A smarter way to learn JavaScript'";<br/>
-                                                    alert(message2 + book);<br/>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="book()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="bookCode()">Code</button>
                         </div>
                     </blockquote>
                 </div>
@@ -204,8 +205,9 @@
                             17 years old”, “I study in SSUET”, “I take Mobile & Cloud
                             Computing, Module A classes”</p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">alert("My Name is " + userName + myName + "\n" + "I am " +<br/>
-                                                    studentAge + "\n" + "I study in " + uni + "\n" + course + " Classes");<br/>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="studentDetail()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="studentDetailCode()">Code</button>
                         </div>
                     </blockquote>
                 </div>
@@ -220,17 +222,26 @@
                     <blockquote>
                         <p>Write a script to display this in browser through JS.</p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var browser = "Yes! I can write HTML content through JavaScript" ;<br/>
-                                                    document.write(browser);<br/>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="browser()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="browserCode()">Code</button>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <h3 id="browser"></h3>
                         </div>
                     </blockquote>
                 </div>
             </div>
         </section>          
     </div>
-
+    <div class="container-flex">
+        <div class="col-md-12">
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="script/app.js"></script>
 </body>
 </html>
