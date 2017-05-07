@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>JavaScript</title>
     <meta charset="UTF-8">
     <title>Local storage</title>
-    <link rel="stylesheet" href="style.css"/>
-    <meta name="viewport" content="width=device-width initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <!--<script src="dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <script src="dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
 </head>
+
 <body>
     <div class="container-flex navbar header-box col-md-12 text-center">
         <h2 class="heading">JavaScript</h2>
@@ -46,16 +48,14 @@
             <div class="row">
                 <div class="col-md-12 box-1">
                     <blockquote>
-                        <p>Declare a variable called age & assign to it your age. Show
-                            your age in an alert box.</p>
+                        <p>Declare a variable called age & assign to it your age. Show your age in an alert box.</p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var age;<br/>
-                        age = 20;<br/>
+                        <div class="col-md-10 ans">var age;<br/> age = 20;<br/>
                         </div>
                     </blockquote>
                 </div>
             </div>
-        </section>   
+        </section>
         <section>
             <div class="class" id="feedback">
                 <h3>Q.2:</h3>
@@ -63,14 +63,14 @@
             <div class="row">
                 <div class="col-md-12 box-1">
                     <blockquote>
-                        <p>Declare & initialize a variable to keep track of how many
-                            times a visitor has visited a web page. Show his/her number of visits on your 
-                            web page. For example: “You have visited this site N times”.</p>
+                        <p>Declare & initialize a variable to keep track of how many times a visitor has visited a web page.
+                            Show his/her number of visits on your web page. For example: “You have visited this site N times”.</p>
                         <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var count++;<br/>
-                                var visi = "You have Visited this site ";<br/>
-                                alert(visi + count + " time..!");<br/>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="nthTimes()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="nthTimesCode()">Code</button>
                         </div>
+
                     </blockquote>
                 </div>
             </div>
@@ -82,13 +82,12 @@
             <div class="row">
                 <div class="col-md-12 box-1">
                     <blockquote>
-                        <p>Declare a variable called birthYear & assign to it your
-                            birth year. Show the following message in your browser:</p>
-                        <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">var birthYear;<br/>
-                                birthYear = "My Birth year is 1993";<br/>
-                                var messageYear = "Data type of my declared variable is number";<br/>
-                                document.getElementById("year").innerHTML= birthYear + messageYear;<br/>
+                        <p>Declare a variable called birthYear & assign to it your birth year. Show the following message in
+                            your browser: My Birth year is 1993, Data type of my declared variable is number.</p>
+                         <div class="col-md-1 ans">A: </div>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="birthYear()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="birthYearCode()">Code</button>
                         </div>
                     </blockquote>
                 </div>
@@ -102,20 +101,19 @@
                 <div class="col-md-12 box-1">
                     <blockquote>
                         <p>A visitor visits an online clothing store
-                            <a href="#">www.xyzClothing.com</a> Write a script to store in variables
-                            the following information:
-                                <ol>
-                                    <li>Visitor’s name</li>
-                                    <li>Product title</li>
-                                    <li>Quantity i.e. how many products a visitor wants to order</li>
-                                </ol>
-                                Show the following message in your browser: “John
-                                Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
-                            </p>
-                        <div class="col-md-1 ans">A: </div>
-                        <div class="col-md-10 ans">
-                            var user = "John Doe ordered 5 T-shirt(s) on XYZ Clothing store";<br/>
-                            document.write(user);<br/>
+                            <a href="#">www.xyzClothing.com</a> Write a script to store in variables the following information:
+                            <ol>
+                                <li>Visitor’s name</li>
+                                <li>Product title</li>
+                                <li>Quantity i.e. how many products a visitor wants to order</li>
+                            </ol>
+                            Show the following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
+                        </p>
+                        <div class="col-md-11 col-md-offset-1">
+                            <button type="button" class="btn btn-success" onclick="clothing()">Run</button>
+                            <button type="button" class="btn btn-info" onclick="clothingCode()">Code</button>
+                        </div>
+                        
                         </div>
                     </blockquote>
                 </div>
@@ -126,6 +124,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script/app.js"></script>
 </body>
+
 </html>

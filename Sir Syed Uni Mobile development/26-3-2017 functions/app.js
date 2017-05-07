@@ -156,3 +156,13 @@ function dice(){
         document.getElementById('dice2').innerHTML= 'Tail';
     }
 }
+
+function reverce(){
+    var num = document.getElementById('num21').value;
+    // console.log(num)
+    var reverse = num.split("").reverse().join("");
+    var aa = Number(reverse);
+    // console.log(aa)
+    document.getElementById('revers').innerHTML= aa;
+    
+}
