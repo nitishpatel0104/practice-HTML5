@@ -114,3 +114,23 @@ blockquote{
     font-size: 2em;
     margin-right: 40px;
 }
+.stage{
+    width: 100%;
+}
+.Event{
+    position: relative;
+    top: -190px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 10px 6px 6px gray;
+    transform: scaleX(2);
+    transform: scaleY(1.5);
+    letter-spacing: 0.1em;
+    line-height: 50px;
+    color: black;
+}
+.celebrated{
+    height: 180px;
+    width: 100%;
+}
