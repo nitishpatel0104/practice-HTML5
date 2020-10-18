@@ -19,3 +19,6 @@ Apply a distinct hierarchy to the visual page’s design, so users are able to e
 
 ######In-page Navigation: 
 Provide navigation aids to help users to get around the page and discover the various sections of the page. Consider adding a “table of content” for longer pieces of content.
+
+#####Recommended IDE:
+VS code
